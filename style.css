@@ -1,0 +1,126 @@
+/* Tổng thể */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Tiêu đề */
+  h1 {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Container chứa bài quiz */
+  #quiz-container {
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  /* Câu hỏi */
+  .question {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  /* Đáp án */
+  .options {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .options div {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .options div:hover {
+    background-color: #e2e6ea;
+    border-color: #007bff;
+  }
+  
+  /* Đáp án đúng */
+  .options div.correct {
+    background-color: lightgreen;
+    color: white;
+  }
+  
+  /* Đáp án sai */
+  .options div.wrong {
+    background-color: lightcoral;
+    color: white;
+  }
+  
+  /* Đáp án đúng gợi ý */
+  .options div.hint {
+    background-color: yellow;
+    color: black;
+  }
+
+  /* Đáp án đang được chọn */
+.options div.selected {
+    background-color: #d1ecf1;  /* Màu nền sáng khi chọn */
+    border-color: #bee5eb;      /* Màu viền khi chọn */
+    color: #0c5460;              /* Màu chữ khi chọn */
+    font-weight: bold;           /* Làm đậm chữ để nổi bật */
+  }
+  
+  /* Khi đáp án được hover (di chuột qua) */
+  .options div:hover {
+    background-color: #f1f8ff;
+    border-color: #007bff;
+  }
+  
+  
+  /* Nút bấm */
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    background-color: #004085;
+  }
+  
+  /* Kết quả */
+  #result {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #28a745;
+    text-align: center;
+  }
+  
