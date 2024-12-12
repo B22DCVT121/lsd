@@ -2118,7 +2118,7 @@ const quizData = [
     "C. 1965 - 1968",
     "D. 1969 - 1973"
   ],
-  answer: "B. 1960 - 1965"
+  answer: "C. 1965 - 1968"
 },
 {
   question: "Chiến thắng nào của nhân dân miền Nam Việt Nam trong đông - xuân 1964 - 1965 góp phần làm phá sản chiến lược 'Chiến tranh đặc biệt' của Mĩ?",
@@ -2129,7 +2129,597 @@ const quizData = [
     "D. Khe Sanh (Quảng Trị)"
   ],
   answer: "C. Bình Giã (Bà Rịa)"
-}
+},
+  {
+    question: "Các thành phần kinh tế dựa trên chế độ công hữu ở Việt Nam là?",
+    options: [
+      "Kinh tế tư nhân và kinh tế có vốn đầu tư nước ngoài",
+      "Kinh tế nhà nước và kinh tế tư nhân",
+      "Kinh tế nhà nước và kinh tế tập thể",
+      "Kinh tế tập thể và kinh tế tư nhân"
+    ],
+    answer: "Kinh tế nhà nước và kinh tế tập thể"
+  },
+  {
+    question: "Kinh tế thị trường định hướng XHCN ở Việt Nam có đặc điểm gì?",
+    options: [
+      "Có nhiều hình thức sở hữu, nhiều thành phần kinh tế",
+      "Có nhiều hình thức sở hữu, một thành phần kinh tế",
+      "Có một hình thức sở hữu, nhiều thành phần kinh tế",
+      "Có một hình thức sở hữu, một thành phần kinh tế",
+    ],
+    answer: "Có nhiều hình thức sở hữu, nhiều thành phần kinh tế"
+  },
+  {
+    question: "Từ khi nào Đảng ta không dùng khái niệm 'Hệ thống chuyên chính vô sản'?",
+    options: [
+      "Từ Đại hội VI",
+      "Từ Hội nghị Trung ương 6, khoá VI",
+      "Từ Đại hội VII",
+      "Từ Đại hội VIII"
+    ],
+    answer: "Từ Hội nghị Trung ương 6, khoá VI"
+  },
+  {
+    question: "Việt Nam gia nhập Hội đồng Tương trợ kinh tế (khối SEV) vào năm nào?",
+    options: [
+      "Năm 1975",
+      "Năm 1976",
+      "Năm 1977",
+      "Năm 1978",
+    ],
+    answer: "Năm 1978",
+  },
+  {
+    question: "Việt Nam tiếp nhận ghế thành viên tại Liên Hợp Quốc vào năm nào?",
+    options: [
+      "Năm 1975",
+      "Năm 1976",
+      "Năm 1977",
+      "Năm 1978",
+    ],
+    answer: "Năm 1977",
+  },
+  {
+    question: "'Đề cương văn hoá Việt Nam' do đồng chí Trường Chinh soạn thảo được Ban Thường vụ Trung ương Đảng thông qua vào năm nào?",
+    options: [
+      "Năm 1941",
+      "Năm 1943",
+      "Năm 1944",
+      "Năm 1945",
+    ],
+    answer: "Năm 1943",
+  },
+  {
+    question: "Khái niệm 'hệ thống chính trị' lần đầu tiên được Đảng ta sử dụng khi nào?",
+    options: [
+      "Tại Đại hội VI",
+      "Tại Hội nghị Trung ương 6, khoá VI",
+      "Tại Đại hội VII",
+      "Tại Đại hội VIII",
+    ],
+    answer: "Tại Hội nghị Trung ương 6, khoá VI",
+  },
+  {
+    question: "Thành phần kinh tế tư nhân dựa trên chế độ sở hữu nào?",
+    options: [
+      "Công hữu",
+      "Tư nhân",
+      "Tập thể",
+      "Hỗn hợp",
+    ],
+   answer: "Tư nhân",
+  },
+  {
+    question: "Thành phần kinh tế giữ vai trò chủ đạo trong nền kinh tế thị trường định hướng XHCN ở Việt Nam là ...?",
+    options: [
+        "Kinh tế nhà nước",
+        "Kinh tế tư nhân",
+        "Kinh tế tập thể",
+        "Kinh tế có vốn đầu tư nước ngoài"
+    ],
+    answer: "Kinh tế nhà nước"
+},
+{
+    question: "Điểm nào dưới đây không phải là nguyên tắc của nền văn hóa mới đã được xác định trong \"Đề cương văn hóa Việt Nam\" do đồng chí Trường Chinh soạn thảo?",
+    options: [
+        "Dân tộc hóa",
+        "Đại chúng hóa",
+        "Khoa học hóa",
+        "Văn hóa hóa"
+    ],
+    answer: "Văn hóa hóa"
+},
+{
+    question: "Trong những đặc điểm chủ yếu của cơ chế quản lý kinh tế thời kỳ trước đổi mới, đặc điểm nào sau đây đã triệt tiêu các yếu tố của thị trường?",
+    options: [
+        "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống dưới",
+        "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh. Giá cả do Nhà nước quy định",
+        "Nhà nước quản lý kinh tế thông qua chế độ \"cấp phát\", \"giao nộp\" và cơ chế \"xin - cho\"",
+        "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu"
+    ],
+    answer: "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống dưới"
+},
+{
+    question: "Trong các cơ sở hình thành hệ thống chuyên chính vô sản ở nước ta, \"Kết quả cải tạo xã hội chủ nghĩa đối với các thành phần kinh tế phi xã hội chủ nghĩa\" đã trực tiếp tạo ra cơ sở nào?",
+    options: [
+        "Cơ sở lý luận Mác - Lênin",
+        "Đường lối chung của cách mạng Việt Nam",
+        "Cơ sở kinh tế kế hoạch hóa tập trung quan liêu, bao cấp",
+        "Cơ sở giai cấp xã hội: chỉ còn giai cấp công nhân, nông dân và tầng lớp trí thức"
+    ],
+    answer: "Cơ sở giai cấp xã hội: chỉ còn giai cấp công nhân, nông dân và tầng lớp trí thức"
+},
+{
+    question: "Chủ tịch Hồ Chí Minh viết tài liệu \"Đời sống mới\" vào năm nào?",
+    options: [
+        "Năm 1945",
+        "Năm 1946",
+        "Năm 1947",
+        "Năm 1948"
+    ],
+    answer: "Năm 1947"
+},
+{
+    question: "Trong những đặc điểm chủ yếu của cơ chế quản lý kinh tế thời kỳ trước đổi mới, đặc điểm nào sau đây làm cho các chủ thể kinh tế không có tính độc lập trong thị trường?",
+    options: [
+        "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống dưới",
+        "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh. Giá cả do Nhà nước quy định",
+        "Nhà nước quản lý kinh tế thông qua chế độ \"cấp phát - giao nộp\" và cơ chế \"xin - cho\"",
+        "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu"
+    ],
+    answer: "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh. Giá cả do Nhà nước quy định"
+},
+{
+    question: "Trong những đặc điểm chủ yếu của cơ chế quản lý kinh tế thời kỳ trước đổi mới, đặc điểm nào sau đây tạo ra tâm lý ý lại, thụ động, tiêu cực trong hoạt động kinh tế?",
+    options: [
+        "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống dưới",
+        "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh. Giá cả do Nhà nước quy định",
+        "Nhà nước quản lý kinh tế thông qua chế độ \"cấp phát - giao nộp\" và cơ chế \"xin - cho\"",
+        "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu"
+    ],
+    answer: "Nhà nước quản lý kinh tế thông qua chế độ \"cấp phát - giao nộp\" và cơ chế \"xin - cho\""
+},
+{
+  question: "Trong những đặc điểm chủ yếu của cơ chế quản lý kinh tế thời kỳ trước đổi mới, đặc điểm nào sau đây sinh ra nhiều yếu kém, khuyết điểm trong bộ máy quản lý?",
+  options: [
+    "Nhà nước quản lý nền kinh tế chủ yếu bằng hệ thống chỉ tiêu pháp lệnh chi tiết áp đặt từ trên xuống dưới",
+    "Các doanh nghiệp không có quyền tự chủ sản xuất kinh doanh, giá cả do Nhà nước quy định",
+    "Nhà nước quản lý kinh tế thông qua chế độ 'cấp phát - giao nộp' và cơ chế 'xin - cho'",
+    "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu"
+  ],
+  answer: "Bộ máy quản lý cồng kềnh, phong cách cửa quyền, quan liêu"
+},
+{
+  question: "Đường lối xây dựng và phát triển Văn hóa trong giai đoạn cách mạng xã hội chủ nghĩa được hình thành bắt đầu từ Đại hội nào của Đảng?",
+  options: [
+    "Đại hội III",
+    "Đại hội IV",
+    "Đại hội V",
+    "Đại hội VI"
+  ],
+  answer: "Đại hội III"
+},
+{
+  question: "Chủ trương hợp tác bình đẳng và cùng có lợi với tất cả các nước, không phân biệt chế độ chính trị - xã hội khác nhau trên cơ sở các nguyên tắc cùng tồn tại hòa bình là xuất phát trực tiếp từ cơ sở nào trong các cơ sở dưới đây?",
+  options: [
+    "Các nước, nhất là những nước đang phát triển đã đổi mới tư duy đối ngoại, thực hiện chính sách đa phương hóa, đa dạng hóa quan hệ quốc tế",
+    "Toàn cầu hóa kinh tế là một xu thế khách quan, lôi cuốn ngày càng nhiều nước tham gia để tránh khỏi nguy cơ bị biệt lập, tụt hậu, kém phát triển",
+    "Vấn đề giải tỏa tình trạng đối đầu, thù địch, phá thế bị bao vây, cấm vận, tạo môi trường quốc tế thuận lợi để tập trung xây dựng kinh tế là nhu cầu cấp bách đối với nước ta",
+    "Nhu cầu chống tụt hậu về kinh tế, tranh thủ các nguồn lực bên ngoài đặt ra gay gắt với Việt Nam"
+  ],
+  answer: "Vấn đề giải tỏa tình trạng đối đầu, thù địch, phá thế bị bao vây, cấm vận, tạo môi trường quốc tế thuận lợi để tập trung xây dựng kinh tế là nhu cầu cấp bách đối với nước ta"
+},
+{
+  question: "Nghị quyết Hội nghị Trung ương mấy khóa XI đã nêu ra 5 quan điểm cơ bản chỉ đạo quá trình phát triển văn hóa, con người Việt Nam đáp ứng yêu cầu phát triển bền vững đất nước?",
+  options: [
+    "Nghị quyết Hội nghị Trung ương 6 khóa XI",
+    "Nghị quyết Hội nghị Trung ương 7 khóa XI",
+    "Nghị quyết Hội nghị Trung ương 8 khóa XI",
+    "Nghị quyết Hội nghị Trung ương 9 khóa XI"
+  ],
+  answer: "Nghị quyết Hội nghị Trung ương 9 khóa XI"
+},
+{
+  question: "Trong các cơ sở hình thành hệ thống chuyên chính vô sản ở nước ta, các biểu hiện quan trọng của hệ thống chuyên chính vô sản đó là sự phân tính cơ sở nào?",
+  options: [
+    "Cơ sở lý luận Mác - Lênin",
+    "Đường lối chung của cách mạng Việt Nam",
+    "Cơ sở kinh tế kế hoạch hóa tập trung quan liêu, bao cấp",
+    "Cơ sở giai cấp xã hội: chỉ còn giai cấp công nhân, nông dân và tầng lớp trí thức"
+  ],
+  answer: "Cơ sở kinh tế kế hoạch hóa tập trung quan liêu, bao cấp"
+},
+{
+  question: "Cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra những tác hại sau đây. Tác hại nào rất khó đẩy lùi và vẫn còn kéo dài đến nay?",
+  options: [
+    "Không tạo được động lực phát triển",
+    "Không thúc đẩy sản xuất",
+    "Làm giảm năng suất, chất lượng, hiệu quả",
+    "Sinh ra nhiều hiện tượng tiêu cực trong xã hội"
+  ],
+  answer: "Làm giảm năng suất, chất lượng, hiệu quả"
+},
+{
+  question: "Quan điểm nào trong các quan điểm sau đây nói về chức năng, vị trí, vai trò đặc biệt quan trọng của văn hóa đối với sự phát triển xã hội?",
+  options: [
+    "Văn hóa là nền tảng tinh thần của xã hội, là mục tiêu, động lực phát triển bền vững đất nước. Văn hóa phải được đặt ngang hàng với kinh tế, chính trị, xã hội",
+    "Xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc, thống nhất trong đa dạng của cộng đồng các dân tộc Việt Nam, với các đặc trưng dân tộc, nhân văn, dân chủ và khoa học",
+    "Phát triển văn hóa vì sự hoàn thiện nhân cách con người và xây dựng con người để phát triển văn hóa. Trong xây dựng văn hóa, trọng tâm là chăm lo xây dựng con người có nhân cách, lối sống tốt đẹp, với các đặc tính cơ bản: yêu nước, nhân ái, nghĩa tình, trung thực, đoàn kết, cần cù, sáng tạo",
+    "Xây dựng và phát triển văn hóa là sự nghiệp của toàn dân do Đảng lãnh đạo, Nhà nước quản lý, nhân dân là chủ thể sáng tạo, đội ngũ trí thức giữ vai trò quan trọng"
+  ],
+  answer: "Văn hóa là nền tảng tinh thần của xã hội, là mục tiêu, động lực phát triển bền vững đất nước. Văn hóa phải được đặt ngang hàng với kinh tế, chính trị, xã hội"
+},
+{
+  question: "Chính sách đối ngoại rộng đa phương hóa, đa dạng hóa các quan hệ kinh tế của Đảng ta là trực tiếp xuất phát từ cơ sở nào trong các cơ sở dưới đây?",
+  options: [
+    "Các nước, nhất là những nước đang phát triển đã đổi mới tư duy đối ngoại, thực hiện chính sách đa phương hóa, đa dạng hóa quan hệ quốc tế",
+    "Toàn cầu hóa kinh tế là một xu thế khách quan, lôi cuốn ngày càng nhiều nước tham gia để tránh khỏi nguy cơ bị biệt lập, tụt hậu, kém phát triển",
+    "Vấn đề giải tỏa tình trạng đối đầu, thù địch, phá thế bị bao vây, cấm vận, tạo môi trường quốc tế thuận lợi để tập trung xây dựng kinh tế là nhu cầu cấp bách đối với nước ta",
+    "Nhu cầu chống tụt hậu về kinh tế, tranh thủ các nguồn lực bên ngoài đặt ra gay gắt với Việt Nam"
+  ],
+  answer: "Các nước, nhất là những nước đang phát triển đã đổi mới tư duy đối ngoại, thực hiện chính sách đa phương hóa, đa dạng hóa quan hệ quốc tế"
+},
+{
+  question: "Quan điểm nào trong các quan điểm sau đây nói về xây dựng con người Việt Nam?",
+  options: [
+    "Văn hóa là nền tảng tinh thần của xã hội, vừa là mục tiêu, vừa là động lực thúc đẩy sự phát triển kinh tế - xã hội và hội nhập quốc tế",
+    "Xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc, thống nhất trong đa dạng của cộng đồng các dân tộc Việt Nam, với các đặc trưng dân tộc, nhân văn, dân chủ và khoa học",
+    "Phát triển văn hóa vì sự hoàn thiện nhân cách con người và xây dựng con người để phát triển văn hóa. Trong xây dựng văn hóa, trọng tâm là chăm lo xây dựng con người có nhân cách, lối sống tốt đẹp, với các đặc tính cơ bản: yêu nước, nhân ái, nghĩa tình, trung thực, đoàn kết, cần cù, sáng tạo",
+    "Xây dựng và phát triển văn hóa là sự nghiệp của toàn dân do Đảng lãnh đạo, Nhà nước quản lý, nhân dân là chủ thể sáng tạo, đội ngũ trí thức giữ vai trò quan trọng"
+  ],
+  answer: "Phát triển văn hóa vì sự hoàn thiện nhân cách con người và xây dựng con người để phát triển văn hóa. Trong xây dựng văn hóa, trọng tâm là chăm lo xây dựng con người có nhân cách, lối sống tốt đẹp, với các đặc tính cơ bản: yêu nước, nhân ái, nghĩa tình, trung thực, đoàn kết, cần cù, sáng tạo"
+},
+{
+  question: "Chủ trương chủ động và tích cực hội nhập kinh tế quốc tế là trực tiếp xuất phát từ cơ sở nào trong các cơ sở dưới đây?",
+  options: [
+    "Các nước, nhất là những nước đang phát triển đã đổi mới tư duy đối ngoại, thực hiện chính sách đa phương hóa, đa dạng hóa quan hệ quốc tế",
+    "Toàn cầu hóa kinh tế là một xu thế khách quan, lôi cuốn ngày càng nhiều nước tham gia để tránh khỏi nguy cơ bị biệt lập, tụt hậu, kém phát triển",
+    "Vấn đề giải tỏa tình trạng đối đầu, thù địch, phá thế bị bao vây, cấm vận, tạo môi trường quốc tế thuận lợi để tập trung xây dựng kinh tế là nhu cầu cấp bách đối với nước ta",
+    "Nhu cầu chống tụt hậu về kinh tế, tranh thủ các nguồn lực bên ngoài đặt ra gay gắt với Việt Nam"
+  ],
+  answer: "Toàn cầu hóa kinh tế là một xu thế khách quan, lôi cuốn ngày càng nhiều nước tham gia để tránh khỏi nguy cơ bị biệt lập, tụt hậu, kém phát triển"
+},
+{
+  "question": "Đại hội VI của Đảng đã đưa ra nhận thức mới về mối quan hệ giữa chính sách xã hội với phát triển kinh tế. Điểm nào dưới đây xác định mục đích của các hoạt động kinh tế?",
+  "options": [
+    "Trình độ phát triển kinh tế là điều kiện vật chất để thực hiện chính sách xã hội nhưng những miệu tiêu xã hội lại là mục đích của các hoạt động kinh tế",
+    "Ngay trong khuôn khổ của hoạt động kinh tế, chính sách xã hội có ảnh hưởng trực tiếp đến năng suất lao động, chất lượng sản phẩm, khả năng thu hút và giữ chân người lao động",
+    "Mục tiêu của chính sách xã hội thống nhất với mục tiêu phát triển kinh tế ở chỗ đều nhằm phát huy sức mạnh của nhân tố con người",
+    "Phát triển kinh tế là cơ sở và tiền đề để thực hiện các chính sách xã hội, đồng thời thực hiện tốt các chính sách xã hội là động lực thúc đẩy phát triển kinh tế"
+  ],
+  "answer": "Trình độ phát triển kinh tế là điều kiện vật chất để thực hiện chính sách xã hội nhưng những miệu tiêu xã hội lại là mục đích của các hoạt động kinh tế"
+},
+{
+  "question": "Đại hội VI của Đảng đã đưa ra nhận thức mới về mối quan hệ giữa chính sách xã hội với phát triển kinh tế. Điểm nào dưới đây xác định chính sách xã hội cần có mặt ngay trong khuôn khổ các hoạt động kinh tế?",
+  "options": [
+    "Trình độ phát triển kinh tế là điều kiện vật chất để thực hiện chính sách xã hội nhưng những mục tiêu xã hội lại là mục đích của các hoạt động kinh tế",
+    "Ngay trong khuôn khổ của hoạt động kinh tế, chính sách xã hội có ảnh hưởng trực tiếp đến năng suất lao động, chất lượng sản phẩm, khả năng thu hút và giữ chân người lao động",
+    "Mục tiêu của chính sách xã hội thống nhất với mục tiêu phát triển kinh tế ở chỗ đều nhằm phát huy sức mạnh của nhân tố con người",
+    "Phát triển kinh tế là cơ sở và tiền đề để thực hiện các chính sách xã hội, đồng thời thực hiện tốt các chính sách xã hội là động lực thúc đẩy phát triển kinh tế"
+  ],
+  "answer": "Ngay trong khuôn khổ của hoạt động kinh tế, chính sách xã hội có ảnh hưởng trực tiếp đến năng suất lao động, chất lượng sản phẩm, khả năng thu hút và giữ chân người lao động"
+},
+{
+  "question": "Trong các quan điểm xây dựng hệ thống chính trị trong thời kỳ đổi mới, quan điểm nào dưới đây bị viết sai?",
+  "options": [
+    "Kết hợp chặt chẽ ngay từ đầu đổi mới kinh tế với đổi mới chính trị, lấy đổi mới chính trị làm trọng tâm, đồng thời từng bước đổi mới kinh tế",
+    "Đổi mới tổ chức và phương thức hoạt động của hệ thống chính trị, làm cho hệ thống chính trị hoạt động năng động hơn, có hiệu quả hơn, phù hợp với đường lối đổi mới toàn diện, đồng bộ đất nước",
+    "Đổi mới hệ thống chính trị một cách toàn diện, đồng bộ, có kế thừa, có bước đi, hình thức và cách làm phù hợp",
+    "Đổi mới mối quan hệ giữa các bộ phận cấu thành của hệ thống chính trị với nhau và với xã hội, tạo ra sự vận động cùng chiều của cả hệ thống để thúc đẩy xã hội phát triển"
+  ],
+  "answer": "Kết hợp chặt chẽ ngay từ đầu đổi mới kinh tế với đổi mới chính trị, lấy đổi mới chính trị làm trọng tâm, đồng thời từng bước đổi mới kinh tế"
+},
+{
+  "question": "Cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra những tác hại sau đây. Tác hại nào lớn nhất?",
+  "options": [
+    "Không tạo được động lực phát triển",
+    "Không thúc đẩy sản xuất",
+    "Làm giảm năng suất, chất lượng, hiệu quả",
+    "Sinh ra nhiều hiện tượng tiêu cực trong xã hội"
+  ],
+  "answer": "Không tạo được động lực phát triển"
+},
+{
+  "question": "Cơ chế quản lý tập trung quan liêu, bao cấp thực hiện trong giai đoạn trước đổi mới đã gây ra những tác hại sau đây. Tác hại nào đã bị viết nhầm?",
+  "options": [
+    "Không tạo được động lực phát triển",
+    "Không thúc đẩy sản xuất",
+    "Làm giảm năng suất, chất lượng, hiệu quả",
+    "Gây ra nhiều hiện tượng tiêu cực trong xã hội"
+  ],
+  "answer": "Không thúc đẩy sản xuất"
+},
+{
+  "question": "Trong các cơ sở hình thành hệ thống chuyên chính vô sản ở nước ta, 'Việc Đại hội IV của Đảng nhận định rằng, muốn đưa sự nghiệp cách mạng đến toàn thắng thì điều kiện quyết định trước tiên là phải thiết lập chuyên chính vô sản' đã tạo ra cơ sở nào cho hệ thống chuyên chính vô sản ở nước ta?",
+  "options": [
+    "Cơ sở lý luận Mác - Lênin",
+    "Đường lối chung của cách mạng Việt Nam",
+    "Cơ sở kinh tế",
+    "Cơ sở xã hội"
+  ],
+  "answer": "Đường lối chung của cách mạng Việt Nam"
+},
+{
+  "question": "Hội nghị nào của BCH Trung ương Đảng đề ra chủ trương hoàn thành thống nhất nước nhà về mặt nhà nước, đưa cả nước tiến lên chủ nghĩa xã hội?",
+  "options": [
+    "Hội nghị TW 24 Khóa III - 9-1975",
+    "Hội nghị TƯ 24 Khóa III - 11-1975",
+    "Hội nghị TƯ 24 Khóa III - 4-1976",
+    "Hội nghị TƯ 24 Khóa III - 5-1976"
+  ],
+  "answer": "Hội nghị TW 24 Khóa III - 9-1975"
+},
+{
+  "question": "Nội dung trọng tâm của đường lối đổi mới ở Việt Nam (từ tháng 12/1986) phù hợp với xu thế phát triển của thế giới là",
+  "options": [
+    "Mở rộng hợp tác, đối thoại, thỏa hiệp",
+    "Thiết lập quan hệ đồng minh với các nước lớn",
+    "Lấy phát triển kinh tế làm trọng điểm",
+    "Tham gia mọi tổ chức khu vực và quốc tế"
+  ],
+  "answer": "Lấy phát triển kinh tế làm trọng điểm"
+},
+{
+  "question": "Bộ Chính trị đã ra chỉ thị về việc lãnh đạo tổng tuyển cử trong cả nước vào ngày nào?",
+  "options": [
+    "30/12/1975",
+    "2/1/1976",
+    "3/1/1976",
+    "30/1/1976"
+  ],
+  "answer": "3/1/1976"
+},
+{
+  "question": "Hội nghị hiệp thương chính trị giữa đoàn đại biểu miền Bắc và đoàn đại biểu miền Nam đã họp ở đâu?",
+  "options": [
+    "Hà Nội",
+    "Sài Gòn",
+    "Huế",
+    "Đà Nẵng"
+  ],
+  "answer": "Sài Gòn"
+},
+{
+  "question": "Trong đường lối đổi mới (1986), Đảng ta chủ trương lấy đổi mới kinh tế là trọng tâm",
+  "options": [
+    "Hàng hóa trên thị trường khan hiếm.",
+    "Nhu cầu giải quyết việc làm cho nhân dân.",
+    "Đất nước đang khủng hoảng kinh tế trầm trọng.",
+    "Đất nước đang thiếu lương thực trầm trọng."
+  ],
+  "answer": "Đất nước đang khủng hoảng kinh tế trầm trọng."
+},
+{
+  "question": "Kỳ họp thứ nhất của Quốc hội nước Việt Nam thống nhất (Quốc hội khóa VI) được tổ chức trong thời gian nào?",
+  "options": [
+    "Từ 24/6 - 3/7/1976",
+    "Từ 24/7 - 3/8/1976",
+    "Từ 24/9 - 3/10/1976",
+    "Từ 20/9 - 1/10/1976"
+  ],
+  "answer": "Từ 24/6 - 3/7/1976"
+},
+{
+  "question": "Nhân tố hàng đầu đảm bảo thắng lợi của cách mạng Việt Nam từ năm 1930 đến nay là",
+  "options": [
+    "Sự lãnh đạo của Đảng Cộng sản Việt Nam.",
+    "Kết hợp sức mạnh dân tộc và sức mạnh thời đại.",
+    "Nắm vững ngọn cờ độc lập dân tộc và chủ nghĩa xã hội.",
+    "Không ngừng củng cố tăng cường khối đại đoàn kết dân tộc."
+  ],
+  "answer": "Sự lãnh đạo của Đảng Cộng sản Việt Nam."
+},
+{
+  "question": "Kế hoạch 5 năm lần thứ II (1976 - 1980) do Đại hội IV thông qua đã đề ra bao nhiêu mục tiêu được xem là cơ bản, vừa là cấp bách?",
+  "options": [
+    "2 mục tiêu",
+    "3 mục tiêu",
+    "4 mục tiêu",
+    "5 mục tiêu"
+  ],
+  "answer": "2 mục tiêu"
+},
+{
+  "question": "Nguyên nhân khách quan nào sau đây thúc đẩy Đảng và Nhà nước Việt Nam phải tiến hành đổi mới?",
+  "options": [
+    "Tình trạng khủng hoảng kinh tế - xã hội ở Việt Nam.",
+    "Tác động của cách mạng khoa học - kỹ thuật.",
+    "Đời sống nhân dân Việt Nam khó khăn.",
+    "Tác động của cuộc khủng hoảng đầu mỏ."
+  ],
+  "answer": "Tác động của cách mạng khoa học - kỹ thuật."
+},
+{
+  "question": "Đại hội IV của Đảng đã rút ra bao nhiêu bài học kinh nghiệm?",
+  "options": [
+    "3",
+    "4",
+    "5"
+  ],
+  "answer": "4"
+},
+{
+  "question": "Một trong những mục tiêu của đường lối đổi mới ở Việt Nam được đề ra từ tháng 12/1986 là...",
+  "options": [
+    "Bước đầu khắc phục hậu quả chiến tranh.",
+    "Hoàn thiện cơ chế quản lý đất nước.",
+    "Đưa đất nước ra khỏi tình trạng khủng hoảng.",
+    "Hoàn thành công cuộc cải cách ruộng đất."
+  ],
+  "answer": "Đưa đất nước ra khỏi tình trạng khủng hoảng."
+},
+{
+  "question": "Ngày 14/7/1986, tại Hội nghị Ban Chấp hành TW đặc biệt ai được bầu làm Tổng Bí thư?",
+  "options": [
+    "Đỗ Mười",
+    "Nguyễn Văn Linh",
+    "Lê Khả Phiêu",
+    "Trường Chinh"
+  ],
+  "answer": "Trường Chinh"
+},
+{
+  "question": "Nguyên nhân khách quan nào sau đây thúc đẩy Đảng và Nhà nước Việt Nam phải tiến hành đổi mới?",
+  "options": [
+    "Tình trạng khủng hoảng kinh tế - xã hội ở Việt Nam.",
+    "Sự khủng hoảng, trì trệ của Liên Xô và các nước Đông Âu.",
+    "Đời sống nhân dân Việt Nam khó khăn.",
+    "Tác động của cuộc khủng hoảng dầu mỏ."
+  ],
+  "answer": "Sự khủng hoảng, trì trệ của Liên Xô và các nước Đông Âu."
+},
+{
+  "question": "Chủ trương đổi mới công tác kế hoạch hóa và cải tiến một cách cơ bản chính sách kinh tế để làm cho sản xuất 'bung ra' được nêu lên ở Hội nghị nào của Trung ương Đảng, khóa IV?",
+  "options": [
+    "Hội nghị lần thứ năm (12-1978)",
+    "Hội nghị lần thứ sáu (8-1979)",
+    "Hội nghị lần thứ bảy (3-1980)",
+    "Hội nghị lần thứ bảy (9-1980)"
+  ],
+  "answer": "Hội nghị lần thứ sáu (8-1979)"
+},
+{
+  "question": "Quan điểm đổi mới đất nước của Đảng Cộng sản Việt Nam (từ tháng 12/1986) không có nội dung nào dưới đây?",
+  "options": [
+    "Lấy đổi mới chính trị làm trọng tâm.",
+    "Đi lên chủ nghĩa xã hội bằng những biện pháp phù hợp.",
+    "Không thay đổi mục tiêu của chủ nghĩa xã hội.",
+    "Đổi mới toàn diện và đồng bộ."
+  ],
+  "answer": "Lấy đổi mới chính trị làm trọng tâm."
+},
+{
+  "question": "Chỉ thị 100 CT/TW của Ban Bí thư Trung ương Đảng về khoán sản phẩm đến nhóm và người lao động trong hợp tác xã được ban hành năm nào?",
+  "options": [
+    "1980",
+    "1981",
+    "1988",
+    "1989"
+  ],
+  "answer": "1981"
+},
+{
+  "question": "Những thành tựu Việt Nam đạt được trong việc thực hiện kế hoạch 5 năm 1986 - 1990 chứng tỏ điều gì?",
+  "options": [
+    "Đường lối đổi mới là đúng, bước đi của công cuộc đổi mới cơ bản là phù hợp.",
+    "Việt Nam đã thoát khỏi tình trạng khủng hoảng kinh tế - xã hội.",
+    "Việt Nam đã giải quyết được sự mất cân đối của nền kinh tế.",
+    "Đường lối đổi mới về cơ bản là đúng đắn, cần phải có những bước đi phù hợp."
+  ],
+  "answer": "Đường lối đổi mới là đúng, bước đi của công cuộc đổi mới cơ bản là phù hợp."
+},
+{
+  "question": "Chỉ thị 100 CT/TW của Ban Bí thư Trung ương Đảng (1-1981) đưa ra chủ trương nào sau đây?",
+  "options": [
+    "Phát huy quyền sản xuất kinh doanh của các xí nghiệp quốc doanh.",
+    "Mở rộng hình thức trả lương khoán, lương sản phẩm.",
+    "Khoán sản phẩm đến nhóm và người lao động trong hợp tác xã nông nghiệp.",
+    "Cải tiến công tác phân phối lưu thông."
+  ],
+  "answer": "Khoán sản phẩm đến nhóm và người lao động trong hợp tác xã nông nghiệp."
+},
+{
+  "question": "Tình hình thế giới và trong nước những năm 80 của thế kỷ XX đặt ra yêu cầu cấp bách nào đối với Việt Nam?",
+  "options": [
+    "Hoàn thành tập thể hóa nông nghiệp.",
+    "Tập trung phát triển công nghiệp nặng.",
+    "Hoàn thành công nghiệp hóa, hiện đại hóa.",
+    "Tiến hành công cuộc đổi mới toàn diện."
+  ],
+  "answer": "Tiến hành công cuộc đổi mới toàn diện."
+},
+{
+  "question": "Đại hội nào của Đảng đã chủ trương coi nông nghiệp là mặt trận hàng đầu?",
+  "options": [
+    "Đại hội III",
+    "Đại hội IV",
+    "Đại hội V",
+    "Đại hội VI"
+  ],
+  "answer": "Đại hội VI"
+},
+{
+  "question": "Nội dung nào không thuộc đường lối đổi mới kinh tế của Đảng Cộng sản Việt Nam đề ra trong Đại hội Đảng toàn quốc lần thứ VI (1986)?",
+  "options": [
+    "Xóa bỏ cơ chế quản lý tập trung quan liêu bao cấp.",
+    "Xây dựng nền kinh tế quốc dân với cơ cấu nhiều ngành nghề.",
+    "Phát triển nền kinh tế với hai thành phần nhà nước và tập thể.",
+    "Xây dựng nền kinh tế thị trường theo định hướng xã hội chủ nghĩa."
+  ],
+  "answer": "Xây dựng nền kinh tế quốc dân với cơ cấu nhiều ngành nghề."
+},
+{
+  "question": "Hội nghị nào của Ban Chấp hành Trung ương Đảng khóa V đã quyết định phải dứt khoát xóa bỏ cơ chế tập trung quan liêu bao cấp, thực hiện hạch toán kinh doanh xã hội chủ nghĩa?",
+  "options": [
+    "Hội nghị lần thứ tám (6 - 1985)",
+    "Hội nghị lần thứ chín (12 - 1985)",
+    "Hội nghị lần thứ mười (5 - 1986)",
+    "Hội nghị lần thứ năm"
+  ],
+  "answer": "Hội nghị lần thứ tám (6 - 1985)"
+},
+{
+  "question": "Nội dung nào không phản ánh đúng những mục tiêu Đảng Cộng sản Việt Nam đề ra trong Kế hoạch 5 năm (1996 - 2000)?",
+  "options": [
+    "Cải thiện đời sống nhân dân",
+    "Nâng cao tích lũy nội bộ nền kinh tế",
+    "Đảm bảo quốc phòng, an ninh",
+    "Đưa đất nước thoát khỏi tình trạng khủng hoảng"
+  ],
+  "answer": "Đưa đất nước thoát khỏi tình trạng khủng hoảng"
+},
+{
+  "question": "Đại hội nào của Đảng được gọi là Đại hội 'Trí tuệ, đổi mới, dân chủ, kỷ cương và đoàn kết'?",
+  "options": [
+    "Đại hội lần thứ V",
+    "Đại hội lần thứ VI",
+    "Đại hội lần thứ VII",
+    "Đại hội lần thứ VIII"
+  ],
+  "answer": "Đại hội lần thứ VII"
+},
+{
+  "question": "Nền kinh tế hàng hóa nhiều thành phần, vận hành theo cơ chế thị trường có sự quản lý của nhà nước bước đầu hình thành sau khi thực hiện...",
+  "options": [
+    "Kế hoạch 5 năm (1991-1995)",
+    "Kế hoạch 5 năm (1980-1985)",
+    "Kế hoạch 5 năm (1986-1990)",
+    "Kế hoạch 5 năm (1996-2000)"
+  ],
+  "answer": "Kế hoạch 5 năm (1986-1990)"
+},
+{
+  "question": "'Nước ta đã ra khỏi khủng hoảng kinh tế - xã hội, nhưng một số mặt còn chưa vững chắc' là đánh giá tổng quát của Đại hội nào?",
+  "options": [
+    "Đại hội VI",
+    "Đại hội VII",
+    "Đại hội VIII",
+    "Đại hội IX"
+  ],
+  "answer": "Đại hội VIII"
+},
+{
+  "question": "Nội dung đổi mới về kinh tế ở Việt Nam (từ tháng 12/1986) và Chính sách kinh tế mới (NEP, 1921) ở nước Nga có điểm tương đồng là",
+  "options": [
+    "Ưu tiên phát triển công nghiệp nặng và giao thông vận tải.",
+    "Xây dựng nền kinh tế nhiều thành phần có sự quản lý của nhà nước.",
+    "Xây dựng kinh tế thị trường xã hội chủ nghĩa, kiểm soát bằng pháp luật.",
+    "Thay chế độ trung thu lương thực thừa bằng thuê lương thực."
+  ],
+  "answer": "Xây dựng nền kinh tế nhiều thành phần có sự quản lý của nhà nước."
+},
+{
+  "question": "Yếu tố quyết định Việt Nam phải tiến hành sự nghiệp đổi mới đất nước (từ năm 1986) là",
+  "options": [
+    "Các nước công nghiệp mới đạt nhiều thành tựu sau cải cách.",
+    "Xu thế quốc tế hóa diễn ra ngày càng mạnh mẽ trên thế giới.",
+    "Cuộc khủng hoảng kinh tế - xã hội ở Việt Nam diễn ra trầm trọng.",
+    "Liên Xô và các nước Đông Âu tiến hành công cuộc cải tổ, cải cách."
+  ],
+  "answer": "Cuộc khủng hoảng kinh tế - xã hội ở Việt Nam diễn ra trầm trọng."
+},
+
 
 
   // Add more questions here
