@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Câu hỏi 1: 2 + 2 bằng bao nhiêu?",
+    "options": ["2", "3", "4", "5"],
+    "correct": 2
+  },
+  {
+    "question": "Câu hỏi 2: Thủ đô của Việt Nam là gì?",
+    "options": ["Hồ Chí Minh", "Hà Nội", "Đà Nẵng", "Huế"],
+    "correct": 1
+  }
+]
