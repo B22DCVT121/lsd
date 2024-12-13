@@ -2766,6 +2766,100 @@ const quizData = [
     ],
     "answer": "Năm 1995"
   },
+    {
+    "question": "Trong cuộc chiến tranh Việt Nam, chính phủ Mỹ đã phải thay bao nhiêu Tổng tư lệnh quân viễn chinh Mỹ ở Việt Nam?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "4"
+  },
+    {
+    "question": "Trong chiến tranh ở Việt Nam, Mỹ đã sử dụng bao nhiêu chiến lược chiến tranh",
+    "options": [
+      "2 chiến lược",
+      "3 chiến lược",
+      "4 chiến lược",
+      "5 chiến lược"
+    ],
+    "answer": "4 chiến lược"
+  },
+    {
+    "question": "Chiến lược Việt Nam hóa chiến tranh dược thực hiện trong thời kỳ của Tổng thống Mỹ nào?",
+    "options": [
+      "Giôn-xơn",
+      "Ních-xơn",
+      "Ken-nơ-đi",
+      "Ai-xen-hao"
+    ],
+    "answer": "Ních-xơn"
+  },
+    {
+    "question": "Trong cuộc chiến tranh Việt Nam, chính phủ Mỹ đã phải thay bao nhiêu Tổng tư lệnh quân viễn chinh Mỹ ở Việt Nam?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "4"
+  },
+    {
+    "question": "Hướng tiến công chính của Mỹ trong đợt phản công chiến lược mùa khô lần thứ nhất (1965-1966) là...",
+    "options": [
+      "Đông Nam Bộ, Tây Nguyên",
+      "Đông Nam Bộ, Liên Khu 5",
+      "Tây Nam Bộ, Liên Khu 5",
+      "Nam Trung Bộ, Tây Nguyên"
+    ],
+    "answer": "Đông Nam Bộ, Liên Khu 5"
+  },
+    {
+    "question": "Hội nghị nào của Đảng đã quyết định mở cuộc Tổng tấn công và nổi dậy Mậu Thân 1968?",
+    "options": [
+      "Hội nghị TW 13 - Khóa III của Đảng (1-1967)",
+      "Hội nghị Bộ Chính trị (5-1967)",
+      "Hội nghị Bộ Chính trị (12-1967)",
+      "Hội nghị Bộ Chính trị (10-1967)"
+    ],
+    "answer": "Hội nghị Bộ Chính trị (12-1967)"
+  },
+     {
+    "question": "Hướng tiến công chủ yếu của quân ta trong cuộc Tiến công chiến lược năm 1972 là...",
+    "options": [
+      "Quảng Trị",
+      "Tây Nguyên",
+      "Đông Nam Bộ",
+      "Bắc Trung Bộ"
+    ],
+    "answer": "Quảng Trị"
+  },
+    {
+    "question": "Cuộc Tổng tiến công chiến lược năm 1972 của quân và dân miền Nam đã buộc Mĩ phải...",
+    "options": [
+      "Thừa nhân sự thất bại của chiến lược 'Chiến tranh cục bộ'",
+      "Tuyên bố 'Mĩ hóa' trở lại cuộc chiến tranh xâm lược Việt Nam",
+      "Chấp nhận đến đàm phán ở Pari để bàn về chấm dứt chiến tranh",
+      "Phải ký Hiệp định Pa-ri về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam"
+    ],
+    "answer": "Tuyên bố 'Mĩ hóa' trở lại cuộc chiến tranh xâm lược Việt Nam"
+  },
+     {
+    "question": "Ý nghĩa lịch sử to lớn nhất của cuộc Tiến công chiến lược năm 1972 là ...",
+    "options": [
+      "Giáng đòn nặng nề vào chiến lược 'Việt Nam hóa chiến tranh'",
+      "Làm phá sản hoàn toàn chiến lược 'Việt Nam hóa chiến tranh'",
+      "Làm phá sản cơ bản chiến lược 'Việt Nam hóa chiến tranh'",
+      "Làm lung lay ý chí xâm lược của Mỹ"
+    ],
+    "answer": "Giáng đòn nặng nề vào chiến lược 'Việt Nam hóa chiến tranh'"
+  },
+    
+    
+    
+    
 
     // Add more questions here
   ];
