@@ -2797,16 +2797,6 @@ const quizData = [
   "answer": "Ních-xơn"
 },
   {
-  "question": "Trong cuộc chiến tranh Việt Nam, chính phủ Mỹ đã phải thay bao nhiêu Tổng tư lệnh quân viễn chinh Mỹ ở Việt Nam?",
-  "options": [
-    "2",
-    "3",
-    "4",
-    "5"
-  ],
-  "answer": "4"
-},
-  {
   "question": "Hướng tiến công chính của Mỹ trong đợt phản công chiến lược mùa khô lần thứ nhất (1965-1966) là...",
   "options": [
     "Đông Nam Bộ, Tây Nguyên",
@@ -2856,6 +2846,59 @@ const quizData = [
   ],
   "answer": "Giáng đòn nặng nề vào chiến lược 'Việt Nam hóa chiến tranh'"
 },
+{
+  "question": "Sự kiện nào sau đây có ý nghĩa kết thúc cuộc kháng chiến chống Mỹ của nhân dân Việt Nam",
+  "options": [
+    "Hiệp định Pari được ký kết năm 1973",
+    "Cuộc tổng tiến công và nổi dậy Xuân 1975",
+    "Chiến dịch Hồ Chí Minh toàn thắng ngày 30/4/1975",
+    "Miền Nam hoàn toàn được giải phóng ngày 2/5/1975"
+  ],
+  "answer": "Chiến dịch Hồ Chí Minh toàn thắng ngày 30/4/1975"
+},
+{
+  "question": "Hội nghị nào của Đảng quyết định mở cuộc Tổng tấn công và nổi dậy giải phóng Sài Gòn trước tháng 5-1975",
+  "options": [
+    "Hội nghị TW 21 (Khóa III - 7/1973)",
+    "Hội nghị Bộ chính trị (10-1974)",
+    "Hội nghị TW 23 (Khóa III - 12/1974)",
+    "Hội nghị Bộ chính trị (3-1975)"
+  ],
+  "answer": "Hội nghị Bộ chính trị (3-1975)"
+},
+{
+  "question": "Thắng lợi then chốt mở màn cho chiến dịch Tây Nguyên từ ngày 4/3 đến 24/3/1975 là ở...",
+  "options": [
+    "Plâyku",
+    "Kom Tum",
+    "Buôn Ma Thuột",
+    "Bảo Lộc"
+  ],
+  "answer": "Buôn Ma Thuột"
+},{
+  "question": "Mỹ tiến hành cuộc đảo chính ở Campuchia thời gian nào?",
+  "options": [
+    "2/1969",
+    "3/1969",
+    "3/1970",
+    "5/1971"
+  ],
+  "answer": "3/1970"
+},
+{
+  "question": "Mỹ tiến hành phá hoại miền Bắc Việt Nam lần thứ 2 mục đích chủ yếu là...",
+  "options": [
+    "Cứu nguy cho chiến lược 'Chiến tranh đặc biệt'",
+    "Trả đũa việc Quân giải phóng tiến công doanh trại quân đội ở Plâyku",
+    "Uy hiếp tinh thần, làm lung lay ý chí chống Mỹ của quân dân ta",
+    "Cứu nguy cho chiến lược 'Việt Nam hóa chiến tranh', tạo thế mạnh khi đàm phán"
+  ],
+  "answer": "Cứu nguy cho chiến lược 'Việt Nam hóa chiến tranh', tạo thế mạnh khi đàm phán"
+},
+
+
+
+
   
   
   
