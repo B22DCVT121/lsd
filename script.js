@@ -2855,12 +2855,8 @@ const quizData = [
       "Làm lung lay ý chí xâm lược của Mỹ"
     ],
     "answer": "Giáng đòn nặng nề vào chiến lược 'Việt Nam hóa chiến tranh'"
-  },
+  }
     
-    
-    
-    
-
     // Add more questions here
   ];
   
