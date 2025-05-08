@@ -64,13 +64,13 @@ body {
   
   /* Đáp án đúng */
   .options div.correct {
-    background-color: lightgreen;
+    background-color: rgb(56, 139, 56);
     color: white;
   }
   
   /* Đáp án sai */
   .options div.wrong {
-    background-color: lightcoral;
+    background-color: rgb(169, 80, 80);
     color: white;
   }
   
