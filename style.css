@@ -62,23 +62,6 @@ body {
     border-color: #007bff;
   }
   
-  /* Đáp án đúng */
-  .options div.correct {
-    background-color: rgb(56, 139, 56);
-    color: white;
-  }
-  
-  /* Đáp án sai */
-  .options div.wrong {
-    background-color: rgb(169, 80, 80);
-    color: white;
-  }
-  
-  /* Đáp án đúng gợi ý */
-  .options div.hint {
-    background-color: yellow;
-    color: black;
-  }
 
   /* Đáp án đang được chọn */
 .options div.selected {
@@ -90,10 +73,30 @@ body {
   
   /* Khi đáp án được hover (di chuột qua) */
   .options div:hover {
-    background-color: #f1f8ff;
+    background-color: #fefe00;
     border-color: #007bff;
   }
   
+  /* Khi chọn đáp án đúng */
+.options div.selected.correct {
+    background-color: rgb(56, 139, 56); /* Nền xanh */
+    color: white;
+    font-weight: bold;
+}
+
+/* Khi chọn đáp án sai */
+.options div.selected.wrong {
+    background-color: rgb(169, 80, 80); /* Nền đỏ */
+    color: white;
+    font-weight: bold;
+}
+
+/* Hiển thị đáp án đúng sau khi chọn sai */
+.options div.show-correct {
+    background-color: rgb(56, 139, 56); /* Nền xanh */
+    color: white;
+    font-weight: bold;
+}
   
   /* Nút bấm */
   button {
@@ -116,11 +119,50 @@ body {
   }
   
   /* Kết quả */
-  #result {
-    font-size: 1.2em;
+  .result-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.result-table th, .result-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.result-table th {
+    background-color: #f8f9fa;
     font-weight: bold;
-    margin-top: 20px;
-    color: #28a745;
-    text-align: center;
-  }
+}
+
+.correct-row {
+    background-color: #d4edda;
+}
+
+.wrong-row {
+    background-color: #f8d7da;
+}
+
+.correct-answer {
+    color: green;
+    font-weight: bold;
+}
+
+.wrong-answer {
+    color: red;
+    font-weight: bold;
+}
+
+.correct-count {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wrong-count {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
   
