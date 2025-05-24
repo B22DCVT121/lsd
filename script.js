@@ -77,16 +77,6 @@ const quizData = [
         answer: "C. Đưa ra quy trình đánh giá chất lượng cho sản phẩm phần mềm."
       },
       {
-        question: "Mục nào không dùng cho đặc tả yêu cầu:",
-        options: [
-          "A. Đặc tả thao tác",
-          "B. Đặc tả mô hình",
-          "C. Đặc tả bằng sơ đồ",
-          "D. Đặc tả thuật toán"
-        ],
-        answer: "B. Đặc tả mô hình"
-      },
-      {
         question: "Các quy tắc được sử dụng để đảm bảo rằng một trò chơi sẽ chơi được bởi những người tham gia được mô tả trong tài liệu nào?",
         options: [
           "A. SRS (Software Requirements Specification)",
@@ -125,38 +115,6 @@ const quizData = [
           "D. Phân tích yêu cầu, thiết kế phần mềm, mã hóa, cài đặt"
         ],
         answer: "A. Đặc tả phần mềm, phát triển phần mềm, kiểm định phần mềm, tiến hóa phần mềm"
-      },
-      {
-        question: "Phát triển phần mềm dùng SCRUM có phẩm chất nào sau đây khác với các mô hình truyền thống?",
-        options: [
-          "A. Mức độ sáng tạo và linh hoạt cao",
-          "B. Chi phí dự án được quản lý tốt",
-          "C. Dễ chuyển giao kiến thức",
-          "D. Đáp ứng của quy trình đối với môi trường",
-          "E. Bàn giao đúng thời hạn",
-          "F. A, C, D"
-        ],
-        answer: "F. A, C, D"
-      },
-      {
-        question: "Yếu tố nào trong công nghệ phần mềm \"cung cấp sự hỗ trợ tự động hay bán tự động cho các phương pháp\"?",
-        options: [
-          "A. Công cụ",
-          "B. Thủ tục",
-          "C. Kỹ thuật",
-          "D. Phương pháp"
-        ],
-        answer: "A. Công cụ"
-      },
-      {
-        question: "Mô hình tiến trình phần mềm tiến hóa :",
-        options: [
-          "A. Bản chất lặp",
-          "B. Dễ dàng điều tiết những biến đổi yêu cầu sản phẩm",
-          "C. Nói chung không tạo ra những sản phẩm bỏ đi",
-          "D. Tất cả các mục"
-        ],
-        answer: "D. Tất cả các mục"
       },
       {
         question: "Ba giai đoạn tổng quát của công nghệ phần mềm?",
@@ -369,16 +327,6 @@ const quizData = [
         answer: "A. Software requirement specification"
       },
       {
-        question: "Chọn đặc điểm được sử dụng để đánh giá một bản thiết kế tốt?",
-        options: [
-          "A. Thể hiện tất cả các yêu cầu trong pha phân tích",
-          "B. Chứa cả các trường hợp kiểm thử của tất cả các thành phần",
-          "C. Cung cấp một mô tả hoàn thiện về phần mềm",
-          "D. Thể hiện tất cả các yêu cầu trong pha phân tích và cung cấp một mô tả hoàn thiện về PM"
-        ],
-        answer: "D. Thể hiện tất cả các yêu cầu trong pha phân tích và cung cấp một mô tả hoàn thiện về PM"
-      },
-      {
         question: "Phần mềm dự báo thời tiết thu thập các số liệu về nhiệt độ, độ ẩm, ... xử lý tính toán để cho ra các dự báo thời tiết là 1 ví dụ của loại phần mềm:",
         options: [
           "A. Phần mềm hệ thống (System software)",
@@ -447,16 +395,6 @@ const quizData = [
           "D. Khả thi về chất lượng"
         ],
         answer: "D. Khả thi về chất lượng"
-      },
-      {
-        question: "Ai là người viết tài liệu SRS?",
-        options: [
-          "A. Người quản lý dự án",
-          "B. Phân tích viên",
-          "C. Lập trình viên",
-          "D. Khách hàng"
-        ],
-        answer: "B. Phân tích viên"
       },
       {
         question: "Sơ đồ hoạt động được sử dụng trong những tình huống sau:",
@@ -591,34 +529,14 @@ const quizData = [
         answer: "Nghiên cứu khả thi"
       },
       {
-        question: "Trong phát triển phần mềm, yếu tố nào quan trọng nhất?",
-        options: ["Con người", "Quy trình", "Sản phẩm", "Thời gian"],
-        answer: "Con người"
-      },
-      {
-        question: "Xác nhận yêu cầu (Requirements Validation) được tiến hành bởi:",
-        options: ["Phân tích viên và lập trình viên", "Phân tích viên và khách hàng", "Phân tích viên và các bên có liên quan", "Phân tích viên và người dùng"],
-        answer: "Phân tích viên và các bên có liên quan"
-      },
-      {
         question: "Phương án nào sau đây không là lượng số (multiplicity) hợp lệ?",
         options: ["0..*", "1", "3..*", "i."],
         answer: "i."
       },
       {
-        question: "Phân tích văn phạm của bản tường thuật xử lý là bước đầu tiên tốt nhất để tạo ra:",
-        options: ["Từ điển dữ liệu", "Biểu đồ dòng dữ liệu", "Biểu đồ quan hệ thực thể", "Biểu đồ dịch chuyển trạng thái"],
-        answer: "Biểu đồ dòng dữ liệu"
-      },
-      {
         question: "Chọn 5 hoạt động chính, tổng quát trong quá trình xây dựng phần mềm?",
         options: ["Giao tiếp, lập kế hoạch, mô hình hóa, xây dựng, triển khai", "Phân tích, thiết kế, lập trình, gỡ lỗi, bảo trì", "Giao tiếp, quản lý rủi ro, ước lượng, sản xuất, kiểm tra lại", "Không có mục nào"],
         answer: "Giao tiếp, lập kế hoạch, mô hình hóa, xây dựng, triển khai"
-      },
-      {
-        question: "Loại hình đặc tả nào không có?",
-        options: ["Đặc tả chính thức (Formal specification)", "Đặc tả phi chính thức (Informal specification)", "Đặc tả bán chính thức (Semi-formal specification)", "Đặc tả ngẫu nhiên (Random specification)"],
-        answer: "Đặc tả ngẫu nhiên (Random specification)"
       },
       {
         question: "Sự khác biệt chính giữa quan hệ kết tập (Aggregation) và hợp thành (Composition) là gì?",
@@ -646,19 +564,9 @@ const quizData = [
         answer: "Mô hình làm bản mẫu"
       },
       {
-        question: "Biểu đồ dịch chuyển trạng thái:",
-        options: ["Đưa ra hình ảnh về các đối tượng dữ liệu", "Đưa ra hình ảnh chức năng biến đổi luồng dữ liệu", "Chỉ ra hình ảnh dữ liệu được biến đổi như thế nào bởi hệ thống", "Chỉ ra những tương tác của hệ thống đối với sự kiện bên ngoài"],
-        answer: "Chỉ ra những tương tác của hệ thống đối với sự kiện bên ngoài"
-      },
-      {
         question: "Mô hình phát triển phần mềm dựa trên mẫu thử (prototype) là:",
         options: ["Một phương pháp thích hợp được sử dụng khi các yêu cầu đã được xác định rõ ràng", "Phương pháp tốt nhất được sử dụng trong các dự án có nhiều thành viên", "Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng", "Một mô hình rất rủi ro, khó đưa ra được một sản phẩm tốt"],
         answer: "Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng"
-      },
-      {
-        question: "Mô hình tiến trình phần mềm tiến hóa:",
-        options: ["Bản chất lặp", "Dễ dàng điều tiết những biến đổi yêu cầu sản phẩm", "Nói chung không tạo ra những sản phẩm bỏ đi", "Tất cả các mục"],
-        answer: "Tất cả các mục"
       },
       {
         question: "Mục đích chính của việc kiểm thử phần mềm là gì?",
@@ -685,11 +593,6 @@ const quizData = [
         options: ["Biểu đồ hoạt động (Activity Diagram)", "Biểu đồ trạng thái (State Machine Diagram)", "Biểu đồ gói (Package Diagram)", "Biểu đồ tương tác (Interaction Diagram)"],
         answer: "Biểu đồ gói (Package Diagram)"
       },
-      {
-    question: "Kỹ thuật nào sau đây là xây dựng phần mềm từ các thành phần đã được thiết kế trong lĩnh vực công nghệ khác nhau?",
-    options: ["Component architecture", "Waterfall", "Agile", "Code refactoring"],
-    answer: "Component architecture"
-  },
   {
     question: "Cấu trúc thông tin biểu diễn tổ chức nội của:",
     options: [
@@ -699,16 +602,6 @@ const quizData = [
       "Các tương tác giữa hệ thống và người dùng"
     ],
     answer: "Những dữ liệu khác nhau và những mục điều khiển"
-  },
-  {
-    question: "Mô hình phát triển phần mềm dựa trên mẫu thử là...?",
-    options: [
-      "Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng",
-      "Phương pháp dành cho dự án có yêu cầu rõ ràng ngay từ đầu",
-      "Phù hợp với hệ thống nhúng thời gian thực",
-      "Không cần tương tác với người dùng trong quá trình phát triển"
-    ],
-    answer: "Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng"
   },
   {
     question: "Phát biểu nào là hợp lý nhất khi nói về mô hình phát triển phần mềm tuần tự tuyến tính?",
@@ -821,11 +714,6 @@ const quizData = [
     answer: "Tính đóng gói, Tính thừa kế, Tính đa hình, Tính trừu tượng"
   },
   {
-    question: "SRS là viết tắt của:",
-    options: ["Software Requirement Specification", "System Resource Statement", "Software Reference Sheet", "System Requirement Summary"],
-    answer: "Software Requirement Specification"
-  },
-  {
     question: "Mô hình phát triển ứng dụng nhanh là:",
     options: [
       "Sự ráp nối tốc độ cao của mô hình tuần tự tuyến tính",
@@ -844,16 +732,6 @@ const quizData = [
       "Thường dùng cho các hệ thống AI"
     ],
     answer: "Việc phát triển hệ thống sẽ được làm theo thứ tự tiến trình, không kết quả của công việc nào được gửi ngược lên tiền trình ở mức cao hơn"
-  },
-  {
-    question: "Điều nào không đúng?",
-    options: [
-      "Khoa học máy tính thuộc ngành công nghệ phần mềm",
-      "Công nghệ phần mềm bao gồm các kỹ thuật lập trình",
-      "Phân tích yêu cầu là một bước quan trọng trong công nghệ phần mềm",
-      "Công nghệ phần mềm hỗ trợ phát triển và bảo trì hệ thống"
-    ],
-    answer: "Khoa học máy tính thuộc ngành công nghệ phần mềm"
   },
    {
     question: "Phần mềm quản lý nhân sự của một công ty là:",
@@ -879,16 +757,6 @@ const quizData = [
       "Hiển thị toàn bộ hệ thống một cách tổng thể"
     ],
     answer: "Sơ đồ cho phép thấy nhiều đối tượng một lúc"
-  },
-  {
-    question: "Mô hình phát triển phần mềm dựa trên mẫu thử (prototype) là:",
-    options: [
-      "Một cách làm nhanh cho các ứng dụng đơn giản",
-      "Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng",
-      "Một phương pháp thay thế cho phát triển theo thác nước",
-      "Một kỹ thuật dành cho phần mềm hệ thống"
-    ],
-    answer: "Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng"
   },
   {
     question: "Phát biểu nào sau đây là phù hợp nhất?",
@@ -936,16 +804,6 @@ const quizData = [
     answer: "Một hình tròn hay một hình ô van"
   },
   {
-    question: "Biểu đồ dịch chuyển trạng thái:",
-    options: [
-      "Chỉ ra những tương tác của hệ thống đối với sự kiện bên ngoài",
-      "Mô tả thứ tự thực hiện các hoạt động",
-      "Dùng để mô tả cấu trúc lớp",
-      "Hiển thị sơ đồ luồng dữ liệu"
-    ],
-    answer: "Chỉ ra những tương tác của hệ thống đối với sự kiện bên ngoài"
-  },
-  {
     question: "Biểu đồ hoạt động (Activity Diagram) không thể được sử dụng trong trường hợp:",
     options: [
       "Biểu diễn logic điều kiện phức tạp",
@@ -989,26 +847,6 @@ const quizData = [
       "Thiết kế giao diện người dùng"
     ],
     answer: "Xử lý chi tiết của mỗi module riêng biệt"
-  },
-  {
-    question: "Xác nhận yêu cầu (Requirements Validation) được tiến hành bởi:",
-    options: [
-      "Phân tích viên và các bên có liên quan",
-      "Chỉ lập trình viên",
-      "Chỉ khách hàng",
-      "Chỉ quản lý dự án"
-    ],
-    answer: "Phân tích viên và các bên có liên quan"
-  },
-  {
-    question: "Tiêu chuẩn ISO-14598 đưa ra:",
-    options: [
-      "Đưa ra quy trình đánh giá chất lượng cho sản phẩm phần mềm",
-      "Mô tả quy trình kiểm thử phần mềm",
-      "Hướng dẫn thiết kế phần mềm",
-      "Chuẩn hóa giao diện phần mềm"
-    ],
-    answer: "Đưa ra quy trình đánh giá chất lượng cho sản phẩm phần mềm"
   },
   {
     question: "Loại phần mềm gì là 1 tập hợp các chương trình để cung cấp dịch vụ cho các chương trình khác:",
@@ -1086,16 +924,6 @@ const quizData = [
       "Sử dụng thuật toán tối ưu"
     ],
     answer: "Thể hiện tất cả các yêu cầu trong pha phân tích và cung cấp một mô tả hoàn thiện về phần mềm"
-  },
-  {
-    question: "Ai là người viết tài liệu SRS?",
-    options: [
-      "Phân tích viên",
-      "Người dùng",
-      "Quản lý dự án",
-      "Nhà thiết kế phần mềm"
-    ],
-    answer: "Phân tích viên"
   },
   {
     question: "Phát triển phần mềm dùng SCRUM có phẩm chất nào sau đây khác với các mô hình truyền thống?",
@@ -1228,16 +1056,6 @@ const quizData = [
     answer: "Mô hình làm bản mẫu"
   },
   {
-    question: "Trong biểu đồ luồng dữ liệu, một chức năng được biểu diễn bởi?",
-    options: [
-      "Một hình tròn hay một hình ô van",
-      "Một hình chữ nhật",
-      "Một hình thoi",
-      "Một hình mũi tên"
-    ],
-    answer: "Một hình tròn hay một hình ô van"
-  },
-  {
     question: "Phương án nào sau đây là khai báo thuộc tính đúng quy tắc?",
     options: [
       "# balance: double",
@@ -1256,16 +1074,6 @@ const quizData = [
       "Sơ đồ thành phần"
     ],
     answer: "Relationship diagram"
-  },
-  {
-    question: "Mối quan tâm chính của công nghệ phần mềm là gì?",
-    options: [
-      "Sản xuất phần mềm",
-      "Bán phần mềm",
-      "Thiết kế phần cứng",
-      "Cài đặt phần mềm"
-    ],
-    answer: "Sản xuất phần mềm"
   },
   {
     question: "Sơ đồ UML nào không thể dùng để thể hiện hành vi của các tác nhân trong hệ thống phần mềm?",
@@ -1308,16 +1116,6 @@ const quizData = [
     answer: "Tại sao chi phí phần cứng máy tính quá cao?"
   },
   {
-    question: "Ba giai đoạn tổng quát của công nghệ phần mềm?",
-    options: [
-      "Definition, development, support",
-      "What, how, where",
-      "Programming, debugging, maintenance",
-      "Analysis, design, testing"
-    ],
-    answer: "Definition, development, support"
-  },
-  {
     question: "Mô hình phát triển ứng dụng nhanh:",
     options: [
       "Một cách gọi khác của mô hình phát triển dựa vào thành phần",
@@ -1326,26 +1124,6 @@ const quizData = [
       "Tất cả các mục",
     ],
     answer: "Một cách hữu dụng khi khách hàng không xác định yêu cầu rõ ràng"
-  },
-  {
-    question: "Mô hình tiến trình phần mềm tiến hóa:",
-    options: [
-      "Bản chất lặp",
-      "Dễ dàng điều tiết những biến đổi yêu cầu sản phẩm",
-      "Nói chung không tạo ra những sản phẩm bỏ đi",
-      "Tất cả các mục"
-    ],
-    answer: "Tất cả các mục"
-  },
-  {
-    question: "Mô hình phát triển dựa vào thành phần:",
-    options: [
-      "Chỉ phù hợp cho thiết kế phần cứng máy tính",
-      "Không thể hỗ trợ phát triển những thành phần sử dụng lại",
-      "Dựa vào những kỹ thuật hỗ trợ đối tượng",
-      "Không định chi phí hiệu quả bằng những độ đo phần mềm có thể định lượng"
-    ],
-    answer: "Dựa vào những kỹ thuật hỗ trợ đối tượng"
   },
   {
     question: "Để xây dựng mô hình hệ thống, kỹ sư phải quan tâm tới một trong những nhân tố hạn chế sau:",
@@ -1716,16 +1494,6 @@ const quizData = [
     answer: "Luồng biến đổi (transform)"
   },
   {
-    question: "Từ điển dữ liệu chứa những mô tả của mỗi:",
-    options: [
-      "Mục cấu hình phần mềm",
-      "Đối tượng dữ liệu phần mềm",
-      "Biểu đồ phần mềm",
-      "Hệ thống ký hiệu phần mềm"
-    ],
-    answer: "Đối tượng dữ liệu phần mềm"
-  },
-  {
     question: "Mô hình thiết kế không quan tâm tới:",
     options: [
       "Kiến trúc",
@@ -1996,16 +1764,6 @@ const quizData = [
     answer: "Không có những stub (nhánh) cần phải viết"
   },
   {
-    question: "Xét đường độc lập cơ bản, nếu có 7 node phân nhánh thì ta có số đường thực thi cơ bản độc lập là:",
-    options: [
-      "8",
-      "7",
-      "9",
-      "6"
-    ],
-    answer: "8" // [1][6][7][8]
-  },
-  {
     question: "Vấn đề nào sau đây liên quan chính đến pha thiết kế?",
     options: [
       "Khả thi",
@@ -2014,16 +1772,6 @@ const quizData = [
       "Phạm vi dự án"
     ],
     answer: "Dữ liệu"
-  },
-  {
-    question: "Use-cases là một kịch bản mà mô tả:",
-    options: [
-      "Phần mềm thực hiện như thế nào khi được dùng trong một tình huống cho trước",
-      "Những công cụ CASE sẽ được dùng như thế nào để xây dựng hệ thống",
-      "Kế hoạch xây dựng cho sản phẩm phần mềm",
-      "Những test-case cho sản phẩm phần mềm"
-    ],
-    answer: "Phần mềm thực hiện như thế nào khi được dùng trong một tình huống cho trước" // [2]
   },
   {
     question: "Từ điển dữ liệu chứa những mô tả của mỗi:",
@@ -2091,16 +1839,6 @@ const quizData = [
       "Tất cả đều đúng phụ thuộc vào dự án"
     ],
     answer: "Có thời gian dài nhất"
-  },
-  {
-    question: "Tiêu chuẩn ISO để hướng dẫn thực hiện cho lĩnh vực phần mềm là",
-    options: [
-      "ISO 9001",
-      "Tất cả đều sai",
-      "ISO 15288",
-      "ISO 9000-3"
-    ],
-    answer: "ISO 9000-3"
   },
   {
     question: "Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào:",
@@ -2183,15 +1921,6 @@ const quizData = [
     answer: "Kiến trúc ngữ cảnh" // [53][54][55][56][57][58]
   },
   {
-    question: "Tiêu chuẩn ISO-14598 đưa ra:",
-    options: [
-      "Đưa ra quy trình đánh giá tiêu quáo chất lượng phần mềm",
-      "Đưa ra quy trình đánh giá chất lượng cho sản phẩm phần mềm",
-      "Đưa ra quy trình đánh giá tính khả dụng cho sản phẩm phần mềm"
-    ],
-    answer: "Đưa ra quy trình đánh giá chất lượng cho sản phẩm phần mềm" // [61][62][63][64][65][66][67][68]
-  },
-  {
     question: "Trong phát triển phần mềm, yếu tố nào quan trọng nhất?",
     options: [
       "Con người",
@@ -2200,36 +1929,6 @@ const quizData = [
       "Thời gian"
     ],
     answer: "Con người" // [70][71][72][73][74]
-  },
-  {
-    question: "Kỹ thuật nào sau đây là xây dựng phần mềm từ các thành phần đã được thiết kế trong lĩnh vực công nghệ khác nhau?",
-    options: [
-      "Extreme programming",
-      "Evolutionary prototyping",
-      "Component architecture",
-      "Open-source development"
-    ],
-    answer: "Component architecture"
-  },
-  {
-    question: "IEEE 830-1993 là một khuyến nghị tiêu chuẩn cho?",
-    options: [
-      "Software requirement specification",
-      "Software design",
-      "Testing",
-      "Coding"
-    ],
-    answer: "Software requirement specification"
-  },
-  {
-    question: "Phần mềm dự báo thời tiết thu thập các số liệu về nhiệt độ, độ ẩm, ... xử lý tính toán để cho ra các dự báo thời tiết là 1 ví dụ của loại phần mềm:",
-    options: [
-      "Phần mềm hệ thống (System software)",
-      "Phần mềm trí tuệ nhân tạo (Artificial Intelligence Software)",
-      "Phần mềm thời gian thực (Real time software)",
-      "Phần mềm nghiệp vụ (Business software)"
-    ],
-    answer: "Phần mềm thời gian thực (Real time software)" // [6][8][9][11]
   },
   {
     question: "Loại phần mềm gì là 1 tập hợp các chương trình để cung cấp dịch vụ cho các chương trình khác",
@@ -2330,6 +2029,16 @@ const quizData = [
       "Độ lớn"
     ],
     answer: "Bảo mật"
+  },
+    {
+    question: "Kỹ nghệ phần mềm dựa trên mấy thành phần chính?",
+    options: [
+      "4",
+      "5",
+      "3",
+      "7"
+    ],
+    answer: "4"
   },
   {
     question: "Khi phần mềm bị lỗi, một trong những cách để khắc phục là 'dùng miếng vá khẩn cấp (patching)'. Biện pháp này có tác dụng phụ gì?",
@@ -2490,16 +2199,6 @@ const quizData = [
       "Sơ đồ ERD"
     ],
     answer: "Tài liệu SRS"
-  },
-  {
-    question: "Mô hình phát triển phần mềm dựa trên mẫu thử (prototype) là:",
-    options: [
-      "Một phương pháp thích hợp được sử dụng khi các yêu cầu đã được xác định rõ ràng",
-      "Phương pháp tốt nhất được sử dụng trong các dự án có nhiều thành viên",
-      "Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng",
-      "Một mô hình rất rủi ro, khó đưa ra được một sản phẩm tốt"
-    ],
-    answer: "Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng"
   },
   {
     question: "Mục nào sau đây không bao gồm trong tài liệu SRS?",
@@ -2731,16 +2430,6 @@ const quizData = [
     answer: "Đặc tả toán học"
   },
   {
-    question: "Xác nhận yêu cầu (Requirements Validation) được tiến hành bởi:",
-    options: [
-      "Phân tích viên và lập trình viên",
-      "Phân tích viên và khách hàng",
-      "Phân tích viên và các bên có liên quan",
-      "Phân tích viên và người dùng"
-    ],
-    answer: "Phân tích viên và các bên có liên quan"
-  },
-  {
     question: "Khi xác nhận yêu cầu, cần phải làm sáng tỏ các từ nào sau đây:",
     options: [
       "\"một số\", \"đôi khi\", \"thường\", \"thông thường\", \"bình thường\", \"phần lớn\", \"đa số\"",
@@ -2759,16 +2448,6 @@ const quizData = [
       "Tất cả các mục"
     ],
     answer: "Tất cả các mục"
-  },
-  {
-    question: "Use-cases là một kịch bản mà mô tả:",
-    options: [
-      "Phần mềm thực hiện như thế nào khi được dùng trong một tình huống cho trước",
-      "Những công cụ CASE sẽ được dùng như thế nào để xây dựng hệ thống",
-      "Kế hoạch xây dựng cho sản phẩm phần mềm",
-      "Những test-case cho sản phẩm phần mềm"
-    ],
-    answer: "Phần mềm thực hiện như thế nào khi được dùng trong một tình huống cho trước"
   },
   {
     question: "Những bản câu hỏi có ý nghĩa nhất đối với những người thiết kế giao diện khi được hoàn tất bởi:",
@@ -2819,16 +2498,6 @@ const quizData = [
       "Lược đồ Use case"
     ],
     answer: "Tài liệu đặc tả yêu cầu phần mềm"
-  },
-    {
-    question: "Tác vụ nào không được biểu diễn như là một phần của phân tích yêu cầu phần mềm",
-    options: [
-      "Định giá và tổng hợp",
-      "Mô hình hóa và thừa nhận vấn đề",
-      "Lập kế hoạch và lịch biểu",
-      "Đặc tả và xem xét"
-    ],
-    answer: "Lập kế hoạch và lịch biểu"
   },
    {
     question: "Theo chiến thuật kiểm nghiệm phổ biến, kiểm nghiệm tính năng tương quan với:",
