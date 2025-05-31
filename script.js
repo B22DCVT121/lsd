@@ -127,6 +127,17 @@ const quizData = [
         answer: "A. Definition, development, support"
       },
       {
+        question: "Đặc điểm của mô hình xoắn ốc?",
+        options: [
+          "A. Nhanh chóng xác định được yêu cầu",
+          "B. Tách biệt giữa các pha, tiến hành tuần tự",
+          "C. Có thể kiểm soát rủi ro ở từng mức tiến hóa",
+          "D. Sử dụng bộ case trong quá trình phát triển"
+        ],
+        answer: "C. Có thể kiểm soát rủi ro ở từng mức tiến hóa"
+      },
+
+      {
         question: "Điều nào không đúng?",
         options: [
           "A. Công nghệ phần mềm thuộc ngành khoa học máy tính",
@@ -145,6 +156,36 @@ const quizData = [
           "D. + function()"
         ],
         answer: "B. # balance: double"
+      },
+      {
+        question: "Phát biểu nào sau đây là ít phù hợp nhất?",
+        options: [
+          "A. Các phần tử trong mô đun được ghép lại trong một dãy điều khiển",
+          "B. Phần mềm có thể dễ dàng sửa chữa và nâng cấp được",
+          "C. Phần mềm không được lãng phí các tài nguyên của hệ thống",
+          "D. Phần mềm có giao diện người dùng thích hợp, có tư liệu hướng dẫn và các tiện ích trợ giúp đầy đủ"
+        ],
+        answer: "C. Phần mềm không được lãng phí các tài nguyên của hệ thống"
+      },
+       {
+        question: 'Các khái niệm nào được thể hiện trong sơ đồ lớp sau:<br><img src="Cau-30.png" alt="Câu 30" width="400">',
+        options: [
+          "A. Thuộc tính public, ngoại lệ",
+          "B. Đối tượng, phụ thuộc",
+          "C. Tổng quát hoá, kết tập",
+          "D. Phương thức public, lớp, tổng quát hóa"
+        ],
+        answer: "D. Phương thức public, lớp, tổng quát hóa"
+      }, 
+       {
+        question: "Tác nhân ngoài là gì?",
+        options: [
+          "A. Một thực thể ngoài hệ thống",
+          "B. Một hệ thống con",
+          "C. Một người ngoài hệ thống",
+          "D. Một tác vụ bên ngoài"
+        ],
+        answer: "A. Một thực thể ngoài hệ thống"
       },
       {
         question: "Biểu đồ hoạt động (Activity Diagram) bao gồm các thành phần nào sau đây:",
@@ -419,12 +460,12 @@ const quizData = [
       {
         question: "Mức độ một module kết nối với các module khác chỉ tới:",
         options: [
-          "A. Tính liên kết (coupling)",
-          "B. Tính kết dính (cohesion)",
+          "A. Tính móc nối (Coupling)",
+          "B. Tính kết dính (Cohesion)",
           "C. Chỉ đến chi phí tích hợp",
           "D. Chỉ đến chi phí phát triển"
         ],
-        answer: "A. Tính liên kết (coupling)"
+        answer: "A. Tính móc nối (Coupling)"
       },
       {
         question: "Biểu đồ dòng điều khiển:",
@@ -477,6 +518,16 @@ const quizData = [
           "F. Tất cả các trường hợp trên"
         ],
         answer: "E. Sơ đồ hoạt động"
+      },
+         {
+        question: "Để biểu diễn các quan hệ vật lý giữa phần mềm và các thành phần phần cứng trong một hệ thống sử dụng sơ đồ UML nào?",
+        options: [
+          "A. Sơ đồ tuần tự ",
+          "B. Sơ đồ hoạt động ",
+          "C. Sơ đồ khối",
+          "D. Sơ đồ triển khai",
+        ],
+        answer: "D. Sơ đồ triển khai"
       },
       {
         question: "Trong UML, ký hiệu nào dùng để biểu diễn một lớp (class)?",
@@ -554,9 +605,9 @@ const quizData = [
         answer: "Bám sát kế hoạch hơn là ứng phó với thay đổi"
       },
       {
-        question: "Phát biểu nào sau đây sai về biểu đồ tuần tự (Sequence Diagram)?",
-        options: ["Biểu đồ tuần tự gồm các lớp và thông điệp", "Biểu đồ tuần tự là biểu đồ kiểu cấu trúc", "Biểu đồ tuần tự gồm các đối tượng và mô tả hành vi của hệ thống", "Biểu đồ tuần tự biểu diễn sự tương tác giữa các đối tượng"],
-        answer: "Biểu đồ tuần tự là biểu đồ kiểu cấu trúc"
+        question: "Phát biểu nào sau đây đúng về biểu đồ tuần tự (Sequence Diagram)?",
+        options: ["Biểu đồ tuần tự gồm các lớp và thông điệp", "Biểu đồ tuần tự là biểu đồ kiểu cấu trúc", "Biểu đồ tuần tự chỉ mô tả luồng dữ liệu trong hệ thống", "Biểu đồ tuần tự biểu diễn sự tương tác giữa các đối tượng"],
+        answer: "Biểu đồ tuần tự biểu diễn sự tương tác giữa các đối tượng"
       },
       {
         question: "Tập hợp yêu cầu, thiết kế nhanh, xây dựng bản mẫu, đánh giá của khách hàng, làm mịn yêu cầu, sản phẩm cuối cùng. Đây là các pha của mô hình công nghệ phần mềm nào?",
@@ -935,6 +986,26 @@ const quizData = [
     ],
     answer: "Mức độ sáng tạo và linh hoạt cao"
   },
+    {
+    question: "Nội dung thông tin biểu diễn những đối tượng điều khiển và dữ liệu riêng biệt mà bao gồm những thông tin mà:",
+    options: [
+      "Cần thiết để trình bày tất cả output",
+      "Được đòi hỏi cho việc xử lý lỗi",
+      "Được đòi hỏi cho hoạt động tạo giao diện hệ thống",
+      "Được biến đổi bởi phần mềm"
+    ],
+    answer: "Được biến đổi bởi phần mềm"
+  },
+  {
+    question: "Chọn câu mô tả về tác nhân đúng nhất trong mô hình use case?",
+    options: [
+      "Tác nhân bị giới hạn đối với người dùng tương tác với hệ thống đang được thiết kế",
+      "Tác nhân bị giới hạn đối với các hệ thống mà tương tác với hệ thống đang được thiết kế",
+      "Tác nhân cung cấp dữ liệu cho hệ thống",
+      "Tác nhân có thể là bất kì thực thể nào bên ngoài đang được thiết kế mà tương tác với hệ thống"
+    ],
+    answer: "Tác nhân có thể là bất kì thực thể nào bên ngoài đang được thiết kế mà tương tác với hệ thống"
+  },
   {
     question: "Phân loại theo phạm vi sử dụng, sản phẩm phần mềm có những loại nào?",
     options: [
@@ -1264,6 +1335,16 @@ const quizData = [
     ],
     answer: "Biến đổi khi mỗi lần dịch chuyển qua hệ thống"
   },
+    {
+    question:'Kí hiệu sau đây được sử dụng trong sơ đồ UML nào?:<br><img src="Cau-44.png" alt="Câu 44" width="400">',
+    options: [
+      "A. Sơ đồ tuần tự",
+      "B. Sơ đồ hoạt động",
+      "C. Sơ đồ khối",
+      "D. Sơ đồ lớp"
+    ],
+    answer: "B. Sơ đồ hoạt động"
+  },
   {
     question: "Cấu trúc thông tin biểu diễn tổ chức nội của:",
     options: [
@@ -1412,6 +1493,362 @@ const quizData = [
       "Cấu trúc dữ liệu thường ảnh hưởng tới cách thức mà thiết kế thành phần phải theo"
     ],
     answer: "Cấu trúc dữ liệu thường ảnh hưởng tới cách thức mà thiết kế thành phần phải theo"
+  },
+      {
+    question:'Dưới đây lớp Circle được thể hiện sơ đồ UML cho biết “isVisible()” là:<br><img src="Cau-50.png" alt="Câu 50" width="400">',
+    options: [
+      "A. Phương thức public",
+      "B. Đối tượng public",
+      "C. Phương thức private",
+      "D. Lớp public"
+    ],
+    answer: "A. Phương thức public"
+  },
+       {
+    question:'Các đường dưới đây trong biểu diễn sơ đồ UML, (i) là:<br><img src="Cau-51.png" alt="Câu 51" width="400">',
+    options: [
+      "A. Mở rộng",
+      "B. Bao gồm",
+      "C. Thừa kế",
+      "D. Không có đáp án nào"
+    ],
+    answer: "D. Không có đáp án nào"
+  },
+  {
+    question:'Biểu diễn các tác nhân như sau, phát biểu nào sau đây đúng?<br><img src="Cau-53.png" alt="Câu 53" width="400">',
+    options: [
+      "A. Hình vẽ thể hiện quan hệ thừa kế giữa các tác nhân",
+      "B. Hình vẽ thể hiện quan hệ kết hợp giữa các tác nhân",
+      "C. Hình vẽ thể hiện các tác nhân rời rạc",
+      "D. Hình vẽ thể hiện một tác nhân tổng quát, hai tác nhân chi tiết"
+    ],
+    answer: "A. Hình vẽ thể hiện quan hệ thừa kế giữa các tác nhân"
+  },
+    {
+    question:'Cho sơ đồ ca sử dụng như sau?<br><img src="Cau-54.png" alt="Câu 54" width="400">Ca sử dụng có thể là:',
+    options: [
+      "A. Thẻ VISA, thẻ ngân hàng, VISA, ngân hàng",
+      "B. Bỏ tiền vào bằng tiền mặt (deposit by cash)",
+      "C. Thẻ VISA rút tiền với thẻ VISA",
+      "D. Kiểm tra mã PIN (identify)",
+      "E. B, D"
+    ],
+    answer: "E. B, D"
+  },
+      {
+    question:'Cho sơ đồ ca sử dụng như sau?<br><img src="Cau-55.png" alt="Câu 55" width="400">Từ sơ đồ ca sử dụng có thể biết được là:',
+    options: [
+      "A. Hệ thống cho rút tiền với giao dịch viên",
+      "B. Hệ thống có kiểm tra xác thực",
+      "C. Mỗi khi nạp tiền phải nạp bằng ngân phiếu (cheque) và tiền mặt (cash)",
+      "D. Có hai tác nhân chính là VISA và ngân hàng",
+      "E. Hệ thống không cho xem số tiền trong tải khoản"
+    ],
+    answer: "B. Hệ thống có kiểm tra xác thực"
+  },
+      {
+    question:'Cho mô tả như sau?<br><img src="Cau-56.png" alt="Câu 56" width="400">Từ mô tả ta có thể biết được:',
+    options: [
+      "A. Tên lớp là Point",
+      "B. Có % phương thức mức bảo vệ",
+      "C. Thuộc tính của lớp trong mô tả là một đối tượng của lớp khác",
+      "D. Không có phương án nào kiểu đúng sai",
+    ],
+    answer: "C. Thuộc tính của lớp trong mô tả là một đối tượng của lớp khác"
+  },
+        {
+    question:'Trong sơ đồ sau, tác nhân nào có thể gọi use case H?<br><img src="Cau-57.png" alt="Câu 57" width="400">',
+    options: [
+      "A. C, I",
+      "B. A, D",
+      "C. A, B, C",
+      "D. E, D",
+    ],
+    answer: "B. A, D"
+  },
+       {
+    question:'Trong sơ đồ sau:<br><img src="Câu 72.png" alt="Câu 72" width="700">',
+    options: [
+    ],
+    answer: "B. A, D"
+  },
+          {
+    question:'Dựa vào sơ đồ trình tự dưới đây, những phương thức nào sẽ được thực thi cho lớp Taikhoan?<br><img src="Cau-60.png" alt="Câu 60" width="400">',
+    options: [
+      "A. check(), plus()",
+      "B. xfer(), evaluation()",
+      "C. check(), minus(), plus()",
+      "D. xfer(), plus(), minus()",
+    ],
+    answer: "D. xfer(), plus(), minus()"
+  },
+  {
+    question:'Cho biết sơ đồ dưới đây là loại sơ đồ gì?<br><img src="Cau-76.png" alt="Câu 76" width="400">',
+    options: [
+      "A. Sơ đồ máy tính",
+      "B. Sơ đồ triển khai",
+      "C. Sơ đồ khối",
+      "D. Sơ đồ trình tự",
+    ],
+    answer: "B. Sơ đồ triển khai"
+  },
+    {
+    question:'Cho sơ đồ lớp sau:<br><img src="Cau-89.png" alt="Câu 89" width="400"> Phát biểu nào sau đây là đúng',
+    options: [
+      "A. Snake là lớp con của Mongoose",
+      "B. Quan hệ giữa Mongoose và Snake là quan hệ phụ thuộc",
+      "C.  Animal là <<interface>> nên mối quan hệ từ lớp Vertebrate nên là nét đứt (realize)",
+      "D. B, C",
+    ],
+    answer: "D. B, C"
+  },
+    {
+    question:'Cho sơ đồ lớp sau:<br><img src="Cau-91.png" alt="Câu 91" width="400"> Phát biểu nào sau đây phù hợp với sơ đồ?',
+    options: [
+      "A. Một công ty (Company) có thể thuê 0 hoặc 1 người (Person)",
+      "B. Một người (Person) có thể làm việc cho một công ty (Company)",
+      "C. Một người (Person) có một chế độ thuê (Employment)",
+      "D. Một công ty (Company) có một nhà tuyển dụng (employer) là con người (Person)",
+    ],
+    answer: "B. Một người (Person) có thể làm việc cho một công ty (Company)"
+  },
+    {
+    question:'Biểu diễn một số người giữ con vật làm thú cưng như thế nào?',
+    options: [
+      'A. <br><img src="95a.png" alt="Câu 95" width="150">',
+      'B. <br><img src="95b.png" alt="Câu 95" width="150">',
+      'C. <br><img src="95c.png" alt="Câu 95" width="150">',
+      'D. <br><img src="95d.png" alt="Câu 95" width="150">',
+      'E. <br><img src="95e.png" alt="Câu 95" width="150">'
+    ],
+    answer: 'D. <br><img src="95d.png" alt="Câu 95" width="150">'
+  },
+    {
+    question:'Sơ đồ sau là biểu diễn của:<br><img src="cau262.png" alt="Câu 262" width="400"> ',
+    options: [
+      "A. Lớp",
+      "B. Hình tròn",
+      "C. Đối tượng",
+      "D. Trường hợp sử dụng",
+    ],
+    answer: "C. Đối tượng"
+  },
+     {
+    question:'Sơ đồ sau là biểu diễn của:<br><img src="263.png" alt="Câu 262" width="400"> ',
+    options: [
+      "Quan hệ kết tập (aggregation)",
+      "Quan hệ phụ thuộc (dependency)",
+      "Quan hệ tổng quát hóa (generalization)",
+      "Quan hệ ràng buộc (constraint)",
+    ],
+    answer: "Quan hệ tổng quát hóa (generalization)"
+  },
+     {
+    question:'Use case trống và quan hệ trong sơ đồ là:<br><img src="273.png" alt="Câu 273" width="400"> ',
+    options: [
+      "A. Lỗi hệ thống và <<include>> hoặc <<extend>>",
+      "B. Use case thừa kế và <<include>>",
+      "C. Ngoại lệ và <<extend>>",
+      "D. Tác nhân và <<extend>>",
+    ],
+    answer: "C. Ngoại lệ và <<extend>>"
+  },
+     {
+    question:'Sinh mã cho sơ đồ có trình tự sau:<br><img src="280.png" alt="Câu 280" width="400"> ',
+    options: [
+      `<pre>A. public class A {
+    private B objB;
+    public void msg1() {
+        objB = new B();
+        objB.msg2();
+        objB.msg3();
+    }
+}
+public class B {
+    public void msg2() {}
+    public void msg3() {}
+}</pre>`,
+
+  `<pre>B. public class A {
+    public void msg1()
+    public void msg2()
+    public void msg3()
+}
+public class B {
+    ...
+}</pre>`,
+
+  `<pre>C. public class B {
+    objB = new A();
+    objB.msg2();
+    objB.msg3();
+}
+public class A {
+    public void msg1() {}
+    public void msg2() {}
+    public void msg3() {}
+}</pre>`,
+
+  `<pre>D. public class A {
+    objB = new B();
+    public void msg1() {}
+}
+public class B {
+    public void msg2() {}
+    public void msg3() {}
+}</pre>`
+    ],
+    answer:     `<pre>A. public class A {
+    private B objB;
+    public void msg1() {
+        objB = new B();
+        objB.msg2();
+        objB.msg3();
+    }
+}
+public class B {
+    public void msg2() {}
+    public void msg3() {}
+}</pre>`,
+  },
+
+      {
+    question:'Sinh mã cho sơ đồ có trình tự sau:<br><img src="281.png" alt="Câu 281" width="400"> ',
+    options: [
+      `<pre>A. for(i = 1; i < n; i++) {
+    objectB.message();
+}</pre>`,
+
+  `<pre>B. for(i = 0; i <= n; i++) {
+    objectB.message();
+}</pre>`,
+
+  `<pre>C. for(i = 1; i <= n; i++) {
+    objectB.message();
+}</pre>`,
+
+  `<pre>D. while(n) {
+    objectB.message();
+}</pre>`,
+
+  `<pre>E. while(!n) {
+    objectB.message();
+}</pre>`,
+
+  `<pre>F. while(true) {
+    objectB.message(n);
+}</pre>`
+    ],
+    answer: `<pre>D. while(n) {
+    objectB.message();
+}</pre>`
+  },
+{
+  question: `<pre>Khi chọn gói phần mềm, phải xem xét:
+i) Gói phần mềm đó có phù hợp với yêu cầu người dùng không?
+ii) Mức độ đáng tin của nhà cung cấp
+iii) Nhà phát triển hệ thống có phải là một tổ chức ổn định, đáng tin
+iv) Gói phần mềm đó có ổn định không hoặc nó có được sửa lại (duyệt lại) lần cuối
+v) Mức độ tích hợp với các phần mềm/ ứng dụng khác
+vi) Sự hỗ trợ sẵn có
+vii) Đội ngũ nhân viên sẵn sàng</pre>`,
+  options: [
+    "A. i, iv, v",
+    "B. ii, iv, v, vi",
+    "C. i, ii, iii",
+    "D. iii, iv",
+    "E. ii, vii, i",
+    "F. Tất cả các câu trên"
+  ],
+  answer: "F. Tất cả các câu trên"
+},
+{
+    question: "Câu 283*\nCác thông điệp giống nhau được hiểu theo cách khác nhau bởi các lớp khác nhau là thể hiện của",
+    options: [
+      "A. Tính đa hình",
+      "B. Tính đóng gói",
+      "C. Tính thừa kế",
+      "D. Tính ảo hóa",
+      "E. A và C",
+      "F. B và D"
+    ],
+    answer: "A. Tính đa hình"
+  },
+  {
+    question: "Câu 284**\nKhi viết giả code (pseudo code), những từ khóa quan trọng nên được in đậm hoặc viết hoa?",
+    options: [
+      "A. Đúng",
+      "B. Sai",
+      "C. Đúng nếu giả code cùng với mã ngôn ngữ",
+      "D. Sai vì giả code giống ngôn ngữ nói",
+      "E. A và C",
+      "F. B và D"
+    ],
+    answer: "A. Đúng"
+  },
+  {
+    question: "Câu 285 *\nBiểu thức chính quy (regular expression) dùng trong trường hợp nào sau đây?",
+    options: [
+      "A. Quy tắc cú pháp địa chỉ email",
+      "B. Ẩn mật khẩu khi người dùng nhập vào",
+      "C. Viết giả code cho một thuật toán",
+      "D. Kiểm thử một chương trình"
+    ],
+    answer: "A. Quy tắc cú pháp địa chỉ email"
+  },
+  {
+    question: "Câu 286**\nChuẩn IEEE cho tài liệu yêu cầu đặc tả là:",
+    options: [
+      "A. IEEE Standard 837-1998",
+      "B. IEEE Standard 830-1998",
+      "C. IEEE Standard 839-1998",
+      "D. IEEE Standard 832-1998",
+      "E. A và C",
+      "F. B và D"
+    ],
+    answer: "B. IEEE Standard 830-1998"
+  },
+
+    {
+    question: "Mẫu nào sau đây phù hợp với tên của một tác nhân",
+    options: [
+      "[ Danh từ ]",
+      "[ Động từ ]",
+      "[ Danh từ ] [ Động từ ]",
+      "[ Danh từ ] [Tính từ ]"
+    ],
+    answer: "[ Danh từ ]"
+  },
+    {
+    question: "Cách định cấu hình tham số URL cho API tìm sản phẩm dựa trên tên:",
+    options: [
+      "POST/{name}/products",
+      "GET /product/{name}",
+      "POST/products/{name}",
+      "GET/product_id={name}"
+    ],
+    answer: "GET /product/{name}"
+  },
+  {
+    question:'Sơ đồ sau là biểu diễn của:<br><img src="2966.png" alt="Câu 296" width="330"> ',
+    options: [
+      'A. <br><img src="296a.png" alt="Câu 95" width="400">',
+      'B. <br><img src="296b.png" alt="Câu 95" width="400">',
+      'C. <br><img src="296c.png" alt="Câu 95" width="400">',
+      'D. <br><img src="296d.png" alt="Câu 95" width="400">',
+    ],
+    answer: 'C. <br><img src="296c.png" alt="Câu 95" width="400">'
+  },
+
+      {
+    question: "Quan hệ thừa kế trong sơ đồ lớp được thể hiện bởi:",
+    options: [
+      "Tên lớp",
+      "Các hàm",
+      "Đường thẳng",
+      "Mũi tên"
+    ],
+    answer: "Mũi tên"
   },
   {
     question: "Mục đích của tham chiếu chéo những yêu cầu (ma trận) trong tài liệu thiết kế là nhằm:",
@@ -1798,7 +2235,8 @@ const quizData = [
     options: [
       "Về con người",
       "Về ước lượng",
-      "Về yêu cầu"
+      "Về yêu cầu",
+      "Về tổ chức"
     ],
     answer: "Về ước lượng"
   },
@@ -2261,6 +2699,51 @@ const quizData = [
     answer: "Thiết kế phải chỉ ra được hệ thống thực thi như thế nào, các yêu cầu được hiện thực hóa ra sao"
   },
   {
+    question: "Câu 297*\nViệc dấu thông tin trong lập trình hướng đối tượng (OOP) được thực hiện trong khái niệm của?",
+    options: [
+      "A. Tính đa hình",
+      "B. Tính đóng gói",
+      "C. Tính thừa kế",
+      "D. Tính ảo hóa",
+      "E. A và C",
+      "F. B và D"
+    ],
+    answer: "B. Tính đóng gói"
+  },
+  {
+    question: "Câu 298*\nPhát triển một ứng dụng mua hàng. Để tạo ra được block chứa hình ảnh món hàng và thay đổi sang hình ảnh khác sau mỗi 3s ta có thể sử dụng?",
+    options: [
+      "A. HTML",
+      "B. CSS",
+      "C. Javascript",
+      "D. Java",
+      "E. Python"
+    ],
+    answer: "C. Javascript"
+  },
+  {
+    question: "Câu 299*\nƯu điểm của mô hình kho dữ liệu?",
+    options: [
+      "A. Khi một hệ con thay đổi, chỉ hệ kế cận ảnh hưởng",
+      "B. Sử dụng hiệu quả mạng, phân tán dữ liệu dễ dàng",
+      "C. Hiệu quả khi chia sẻ một số lượng lớn dữ liệu",
+      "D. Hỗ trợ sự phát triển tăng trưởng của các phân hệ"
+    ],
+    answer: "C. Hiệu quả khi chia sẻ một số lượng lớn dữ liệu"
+  },
+  {
+    question: "Câu 300\nCác phát biểu sau đúng hay sai:\na. Số lượng mô-đun là một cách thể hiện độ phức tạp của hệ thống\nb. Thiết kế kiến trúc thường được xem như trả lời câu hỏi “làm gì?” trong phát triển phần mềm\nc. Sử dụng ngôn ngữ kĩ thuật để mô tả các usecase\nd. Bảo trì là một trong những pha của phát triển phần mềm",
+    options: [
+      "A. a. Đúng b. Sai c. Đúng d. Đúng",
+      "B. a. Sai b. Sai c. Đúng d. Đúng",
+      "C. a. Đúng b. Sai c. Đúng d. Sai",
+      "D. a. Sai b. Sai c. Sai d. Đúng",
+      "E. a. Đúng b. Sai c. Sai d. Đúng",
+      "F. a. Đúng b. Đúng c. Sai d. Đúng"
+    ],
+    answer: "E. a. Đúng b. Sai c. Sai d. Đúng"
+  },
+  {
     question: "Sơ đồ nào sau đây không cần thiết trong phân tích yêu cầu?",
     options: [
       "Use Case",
@@ -2513,32 +2996,41 @@ const quizData = [
         // Add more questions here
       ];
       
-      // Render quiz questions and options
-     const quizContainer = document.getElementById("quiz-container");
+     // Lấy phần tử chứa bài quiz
+const quizContainer = document.getElementById("quiz-container");
 const userAnswers = Array(quizData.length).fill(null); // Lưu đáp án người dùng
 
+// Hàm xáo trộn câu hỏi mỗi lần tải trang
+function shuffleArray(array) {
+    return array.sort(() => Math.random() - 0.5);
+}
+
+// Xáo trộn câu hỏi khi trang tải lại
+const quizData1 = shuffleArray(quizData);
+
+// Hiển thị câu hỏi và đáp án
 quizData.forEach((item, index) => {
-  const questionDiv = document.createElement("div");
-  questionDiv.classList.add("question");
-  questionDiv.innerText = `${index + 1}. ${item.question}`;
+    const questionDiv = document.createElement("div");
+    questionDiv.classList.add("question");
+    questionDiv.innerHTML = `${index + 1}. ${item.question}`;
 
-  const optionsDiv = document.createElement("div");
-  optionsDiv.classList.add("options");
-  item.options.forEach((option, i) => {
-    const optionDiv = document.createElement("div");
-    optionDiv.innerText = option;
-    optionDiv.classList.add("option");
-    optionDiv.addEventListener("click", () => handleOptionClick(optionDiv, item.answer, option, index, optionsDiv));
-    optionsDiv.appendChild(optionDiv);
-  });
+    const optionsDiv = document.createElement("div");
+    optionsDiv.classList.add("options");
 
-  quizContainer.appendChild(questionDiv);
-  quizContainer.appendChild(optionsDiv);
+    item.options.forEach((option, i) => {
+        const optionDiv = document.createElement("div");
+        optionDiv.innerHTML = option; // Hiển thị hình ảnh đúng cách
+        optionDiv.classList.add("option");
+        optionDiv.addEventListener("click", () => handleOptionClick(optionDiv, item.answer, option, index, optionsDiv));
+        optionsDiv.appendChild(optionDiv);
+    });
+
+    quizContainer.appendChild(questionDiv);
+    quizContainer.appendChild(optionsDiv);
 });
 
 // Xử lý khi chọn đáp án
 function handleOptionClick(optionDiv, correctAnswer, selectedAnswer, questionIndex, optionsDiv) {
-    // Không cho chọn lại nếu đã chọn
     if (userAnswers[questionIndex] !== null) return;
 
     userAnswers[questionIndex] = selectedAnswer;
@@ -2551,9 +3043,8 @@ function handleOptionClick(optionDiv, correctAnswer, selectedAnswer, questionInd
         optionDiv.classList.add("correct");
     } else {
         optionDiv.classList.add("wrong");
-        // Hiển thị đáp án đúng
         Array.from(optionsDiv.children).forEach(div => {
-            if (div.innerText === correctAnswer) {
+            if (div.innerHTML === correctAnswer) {
                 div.classList.add("show-correct");
             }
         });
@@ -2608,3 +3099,38 @@ document.getElementById("submit-btn").addEventListener("click", () => {
     resultDiv.innerHTML = resultHTML;
     resultDiv.style.display = "block";
 });
+
+// Nút chơi lại (làm mới trang)
+document.getElementById("reset-btn").addEventListener("click", () => {
+    location.reload();
+});
+
+
+function handleOptionClick(optionDiv, correctAnswer, selectedAnswer, questionIndex, optionsDiv) {
+    if (userAnswers[questionIndex] !== null) return;
+
+    userAnswers[questionIndex] = selectedAnswer;
+
+    // Đánh dấu đáp án đã chọn
+    Array.from(optionsDiv.children).forEach(div => div.classList.remove("selected"));
+    optionDiv.classList.add("selected");
+
+    if (selectedAnswer === correctAnswer) {
+        optionDiv.classList.add("correct");
+
+        // 🎆 Bắn pháo hoa khi trả lời đúng
+        confetti({
+            particleCount: 100,
+            spread: 90,
+            origin: { y: 0.6 }
+        });
+
+    } else {
+        optionDiv.classList.add("wrong");
+        Array.from(optionsDiv.children).forEach(div => {
+            if (div.innerHTML === correctAnswer) {
+                div.classList.add("show-correct");
+            }
+        });
+    }
+}
