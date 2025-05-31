@@ -3134,3 +3134,4 @@ function handleOptionClick(optionDiv, correctAnswer, selectedAnswer, questionInd
         });
     }
 }
+
