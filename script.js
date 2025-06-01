@@ -1763,7 +1763,7 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
   answer: "F. Tất cả các câu trên"
 },
 {
-    question: "Câu 283*\nCác thông điệp giống nhau được hiểu theo cách khác nhau bởi các lớp khác nhau là thể hiện của",
+    question: "Các thông điệp giống nhau được hiểu theo cách khác nhau bởi các lớp khác nhau là thể hiện của",
     options: [
       "A. Tính đa hình",
       "B. Tính đóng gói",
@@ -1775,7 +1775,7 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
     answer: "A. Tính đa hình"
   },
   {
-    question: "Câu 284**\nKhi viết giả code (pseudo code), những từ khóa quan trọng nên được in đậm hoặc viết hoa?",
+    question: "Khi viết giả code (pseudo code), những từ khóa quan trọng nên được in đậm hoặc viết hoa?",
     options: [
       "A. Đúng",
       "B. Sai",
@@ -1787,7 +1787,7 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
     answer: "A. Đúng"
   },
   {
-    question: "Câu 285 *\nBiểu thức chính quy (regular expression) dùng trong trường hợp nào sau đây?",
+    question: "Biểu thức chính quy (regular expression) dùng trong trường hợp nào sau đây?",
     options: [
       "A. Quy tắc cú pháp địa chỉ email",
       "B. Ẩn mật khẩu khi người dùng nhập vào",
@@ -1797,7 +1797,7 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
     answer: "A. Quy tắc cú pháp địa chỉ email"
   },
   {
-    question: "Câu 286**\nChuẩn IEEE cho tài liệu yêu cầu đặc tả là:",
+    question: "Chuẩn IEEE cho tài liệu yêu cầu đặc tả là:",
     options: [
       "A. IEEE Standard 837-1998",
       "B. IEEE Standard 830-1998",
@@ -2800,7 +2800,7 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
       "Số lần bảo trì sai sót / tổng số lần bảo trì",
       "Thời gian trung bình của một lần bảo trì"
     ],
-    answer: "Số lần bảo trì sai sót /tổng số lần bảo trì"
+    answer: "Số vấn đề giải quyết trong tháng / tổng số vấn đề phát sinh trong tháng"
   },
   {
     question: "Nguyên lý Pareto được áp dụng trong kiểm thử được phát biểu như sau:",
@@ -3134,4 +3134,3 @@ function handleOptionClick(optionDiv, correctAnswer, selectedAnswer, questionInd
         });
     }
 }
-
