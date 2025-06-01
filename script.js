@@ -1050,11 +1050,11 @@ const quizData = [
     question: "Kỹ sư phần mềm không cần?",
     options: [
       "Lập trình thành thạo bằng một ngôn ngữ lập trình",
-      "Kỹ năng phân tích hệ thống",
-      "Hiểu biết về quy trình phát triển phần mềm",
-      "Kỹ năng làm việc nhóm"
+      "Kiến thức về phân tích thiết kế hệ thống",
+      "Kiến thức về cơ sở dữ liệu",
+      "Kinh nghiệm quản lý dự án phần mềm"
     ],
-    answer: "Lập trình thành thạo bằng một ngôn ngữ lập trình"
+    answer: "Kinh nghiệm quản lý dự án phần mềm"
   },
   {
     question: "Tính khả thi của phần mềm dựa vào các yếu tố nào sau đây?",
