@@ -2142,6 +2142,111 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
     answer: "Thiết kế giao diện"
   },
   {
+  question: "Cho công thức bảo trì: M = p(K × exp(c−d)), ý nghĩa của tham số p là gì?",
+  options: [
+    "Đánh giá độ phức tạp cho việc thiếu thiết kế về cấu trúc dữ liệu",
+    "Đánh giá mức độ hiểu biết về phần mềm",
+    "Công việc làm",
+    "Hằng số kinh nghiệm"
+  ],
+  answer: "Công việc làm"
+},
+{
+  question: "Chỉ phát biểu sai: để đạt được độ đo PUM thấp thì nên:",
+  options: [
+    "Cải tiến quy trình",
+    "Giảm lỗi giá",
+    "Gia tăng số bản bán được",
+    "Giảm thời gian sửa lỗi"
+  ],
+  answer: "Giảm thời gian sửa lỗi"
+},
+{
+  question: "Integration testing là quá trình kiểm tra ______ giữa các thành phần hay mô-đun của hệ thống phần mềm.",
+  options: [
+    "Phương thức",
+    "Thủ tục",
+    "Các hàm và phương thức",
+    "Tích hợp"
+  ],
+  answer: "Tích hợp"
+},
+{
+  question: "Phương pháp kiểm thử tích hợp nào đơn giản và dễ thực hiện đối với hệ thống nhỏ?",
+  options: [
+    "Top-down",
+    "Bottom-up",
+    "Bigbang",
+    "A, B"
+  ],
+  answer: "Bigbang"
+},
+{
+  question: "Kiểm thử được thực hiện bởi khách hàng hoặc chủ sản phẩm là?",
+  options: [
+    "Unit Testing",
+    "Performance Testing",
+    "Acceptance Testing",
+    "Automation Testing"
+  ],
+  answer: "Acceptance Testing"
+},
+{
+  question: "Chiến lược kiểm thử nào mà việc kiểm thử bắt đầu với mô đun mức cao nhất và tiếp theo là các mô đun thấp hơn một mức?",
+  options: [
+    "Chiến lược kiểm thử gây áp lực",
+    "Chiến lược kiểm thử trên xuống",
+    "Chiến lược kiểm thử gây áp lực",
+    "Chiến lược kiểm thử song song"
+  ],
+  answer: "Chiến lược kiểm thử trên xuống"
+},
+{
+  question: "Tiêu chuẩn 'tính tin cậy' trong đánh giá phần mềm là gì?",
+  options: [
+    "Phần mềm có giao diện người dùng thích hợp, có tư liệu hướng dẫn và các tiện ích trợ giúp đầy đủ",
+    "Phần mềm không gây nên các thiệt hại vật lý và kinh tế khi hệ thống thất bại",
+    "Phần mềm không được lãng phí các tài nguyên của hệ thống",
+    "Phần mềm có thể dễ dàng sửa chữa và nâng cấp được"
+  ],
+  answer: "Phần mềm không gây nên các thiệt hại vật lý và kinh tế khi hệ thống thất bại"
+},
+{
+  question: "Loại kiểm thử nào được tiến hành bởi một nhóm nhỏ người sử dụng dưới sự hướng dẫn của người phát triển hệ thống?",
+  options: [
+    "Kiểm thử alpha",
+    "Kiểm thử beta",
+    "Kiểm thử thống kê",
+    "Kiểm thử khiếm khuyết"
+  ],
+  answer: "Kiểm thử beta"
+},
+
+
+  {
+  question: "Trong chất lượng thiết kế phần mềm, độ đo 'sự kết dính' là gì?",
+  options: [
+    "Độ đo về tính khớp lại với nhau của các phần trong mô đun đó",
+    "Độ ghép nối với nhau giữa các đơn vị hay mô đun của hệ thống",
+    "Các phần tử trong mô đun được ghép lại trong một dãy điều khiển",
+    "Các thành phần cùng thực hiện các chức năng tương tự đặt vào một mô đun"
+  ],
+  answer: "Độ đo về tính khớp lại với nhau của các phần trong mô đun đó"
+},
+
+
+   {
+    question: "Câu hỏi nào có liên quan đến phân tích thiết kế? ",
+    options: [
+      "Thời gian hoàn thành dự án có đủ không?",
+      "Làm thế nào chuyển thiết kế dữ liệu logic sang thiết kế dữ liệu vật lý?",
+      "Các xử lý nào được tiến hành và các thông tin chi tiết liên quan?",
+      "Đâu là phạm vi của hệ thống phần mềm? "
+    ],
+    answer: "Làm thế nào chuyển thiết kế dữ liệu logic sang thiết kế dữ liệu vật lý?"
+  },
+  
+  {
     question: "Trong mô hình CMM (Software Capability Maturity Model) có mấy mức độ trưởng thành:",
     options: [
       "5 mức độ",
@@ -2863,6 +2968,40 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
     ],
     answer: "Phân tích yêu cầu"
   },
+     {
+    question: "Phát biểu nào đúng về mô hình phát triển phần mềm xoắn ốc?",
+    options: [
+      "Ít nhất một số thông số kỹ thuật được viết trước khi code",
+    ],
+    answer: "Ít nhất một số thông số kỹ thuật được viết trước khi code"
+  },
+       {
+    question: "Phương án nào sau đây là lý do chính để xây dựng các use case",
+    options: [
+      "Để giúp các lập trình viên và khách hàng hiểu nhau",
+    ],
+    answer: "Để giúp các lập trình viên và khách hàng hiểu nhau"
+  },
+         {
+    question: "Mô hình phát triển phần mềm lặp lại tăng thêm",
+    options: [
+      "Một hướng hợp lý khi yêu cầu được xác định rõ ràng",
+      "Một hướng tốt khi cần tạo nhanh một sản phẩm thực thi lõi",
+      "Một hướng tốt nhất dùng cho những dự án có những nhóm phát triển lớn",
+      
+    ],
+    answer: "Một hướng tốt khi cần tạo nhanh một sản phẩm thực thi lõi"
+  },
+          {
+    question: "Cách tốt nhất để đưa tới việc xem xét việc đánh giá yêu cầu là:",
+    options: [
+      "Dùng danh sách các câu hỏi kiểm tra để kiểm tra các yêu cầu",
+      
+    ],
+    answer: "Dùng danh sách các câu hỏi kiểm tra để kiểm tra các yêu cầu"
+  },
+
+
 
         // Add more questions here
       ];
