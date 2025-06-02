@@ -807,12 +807,7 @@ const quizData = [
       "Biểu diễn luồng công việc",
       "Biểu diễn giao diện người dùng"
     ],
-    answer: "Biểu diễn logic điều kiện phức tạp"
-  },
-  {
-    question: "Mức độ một module kết nối với các module khác chỉ tới:",
-    options: ["Tính liên kết (coupling)", "Tính gắn kết (cohesion)", "Tính trừu tượng", "Tính kế thừa"],
-    answer: "Tính liên kết (coupling)"
+    answer: "Biểu diễn giao diện người dùng"
   },
   {
     question: "Đặc điểm của mô hình thác nước (waterfall):",
@@ -1814,7 +1809,7 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
       "Tính chức năng của hệ thống",
       "Những chi tiết thực thi của hệ thống"
     ],
-    answer: "Dữ liệu và điều khiển của hệ thống"
+    answer: "Tính truy cập và tính tin cậy của hệ thống"
   },
   {
     question: "Trong phương pháp phân tích kiến trúc, mô tả mẫu kiến trúc thường dùng khung nhìn:",
@@ -2557,7 +2552,7 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
   {
     question: "Mức độ các chức năng (hay phần tử) trong module kết nối với nhau chỉ tới:",
     options: [
-      "Tính liên kết (coupling)",
+      "Tính móc nối (coupling)",
       "Tính kết dính (cohesion)",
       "Chỉ đến chi phí tích hợp",
       "Chỉ đến chi phí phát triển"
@@ -2791,12 +2786,12 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
   {
     question: "Khi xác nhận yêu cầu, cần phải làm sáng tỏ các từ nào sau đây:",
     options: [
-      "\"một số\", \"đôi khi\", \"thường\", \"thông thường\", \"bình thường\", \"phần lớn\", \"đa số\"",
+      '\"một số\", \"đôi khi\", \"thường\", \"thông thường\", \"bình thường\", \"phần lớn\", \"đa số\"',
       "Danh từ là số nhiều hay số ít",
       "Tính từ chỉ trạng thái",
       "Động từ ở hình thức chủ động hay bị động"
     ],
-    answer: "\"một số\", \"đôi khi\", \"thường\", \"thông thường\", \"bình thường\", \"phần lớn\", \"đa số\""
+    answer: '\"một số\", \"đôi khi\", \"thường\", \"thông thường\", \"bình thường\", \"phần lớn\", \"đa số\"'
   },
   {
     question: "Mô hình tiến trình phần mềm tiến hóa:",
