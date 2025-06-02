@@ -28,7 +28,7 @@ const quizData = [
           "C. Biểu diễn nhiều hoạt động cần cùng được thực hiện trong một vài trạng thái",
           "D. A và B"
         ],
-        answer: "B. Nó chỉ ra rằng các hoạt động được thực hiện nhiều lần"
+        answer: "D. A và B"
       },
       {
         question: "<< include >> là quan hệ use case được gọi mỗi khi use case chính chạy.",
@@ -478,16 +478,6 @@ const quizData = [
         answer: "A. Cần thiết để mô hình những hệ thống hướng sự kiện"
       },
       {
-        question: "Dòng đời hoạt động (life-line) là:",
-        options: [
-          "A. Hình chữ nhật đứng nhấn mạnh một đối tượng chỉ hoạt động trong suốt kịch bản",
-          "B. Dòng thời gian một trình tự",
-          "C. Một thông điệp",
-          "D. Đường thẳng đứng dưới một đối tượng trong mô hình trình tự"
-        ],
-        answer: "D. Đường thẳng đứng dưới một đối tượng trong mô hình trình tự"
-      },
-      {
         question: "Có thể phân loại phần mềm theo cách nào?",
         options: [
           "A. Phạm vi sử dụng, miền ứng dụng",
@@ -678,7 +668,7 @@ const quizData = [
     question: "Khái quát hóa giữa tác nhân << extend >>, << include >>:",
     options: [
       "Khái quát hóa giữa trường hợp sử dụng",
-      "<<include>> chỉ ra mối quan hệ giữa actor và use case",
+      "<< include >> chỉ ra mối quan hệ giữa actor và use case",
       "Khái quát hóa giữa các lớp",
       "Không tồn tại trong UML"
     ],
@@ -694,16 +684,6 @@ const quizData = [
     ],
     answer: "Một use case có thể chứa chức năng của một use case khác"
   },
-  {
-    question: "Mục nào không là một phần của kiến trúc phần mềm?",
-    options: [
-      "Chi tiết giải thuật",
-      "Cấu trúc module",
-      "Giao tiếp giữa các thành phần",
-      "Cấu trúc dữ liệu toàn cục"
-    ],
-    answer: "Chi tiết giải thuật"
-  },
    {
     question: "Mục nào không là một mục đích cho việc xây dựng một mô hình phân tích?",
     options: [
@@ -717,7 +697,7 @@ const quizData = [
   {
     question: "Sơ đồ nào sau đây không cần thiết trong phân tích yêu cầu?",
     options: ["Activity Diagram", "Use Case Diagram", "Class Diagram", "Data Flow Diagram"],
-    answer: "Activity Diagram"
+    answer: "Class Diagram"
   },
   {
     question: "Các bước trong giai đoạn 'phát triển' của tiến trình phần mềm?",
@@ -832,7 +812,7 @@ const quizData = [
       "Biểu diễn luồng công việc",
       "Biểu diễn giao diện người dùng"
     ],
-    answer: "Biểu diễn giao diện người dùng"
+    answer: "Biểu diễn logic điều kiện phức tạp"
   },
   {
     question: "Mức độ một module kết nối với các module khác chỉ tới:",
@@ -956,16 +936,6 @@ const quizData = [
     ],
     answer: "Mức độ sáng tạo và linh hoạt cao"
   },
-    {
-    question: "Nội dung thông tin biểu diễn những đối tượng điều khiển và dữ liệu riêng biệt mà bao gồm những thông tin mà:",
-    options: [
-      "Cần thiết để trình bày tất cả output",
-      "Được đòi hỏi cho việc xử lý lỗi",
-      "Được đòi hỏi cho hoạt động tạo giao diện hệ thống",
-      "Được biến đổi bởi phần mềm"
-    ],
-    answer: "Được biến đổi bởi phần mềm"
-  },
   {
     question: "Chọn câu mô tả về tác nhân đúng nhất trong mô hình use case?",
     options: [
@@ -1024,7 +994,7 @@ const quizData = [
       "Kiến thức về cơ sở dữ liệu",
       "Kinh nghiệm quản lý dự án phần mềm"
     ],
-    answer: "Kinh nghiệm quản lý dự án phần mềm"
+    answer: "Lập trình thành thạo bằng một ngôn ngữ lập trình"
   },
   {
     question: "Tính khả thi của phần mềm dựa vào các yếu tố nào sau đây?",
@@ -1316,16 +1286,6 @@ const quizData = [
     answer: "B. Sơ đồ hoạt động"
   },
   {
-    question: "Cấu trúc thông tin biểu diễn tổ chức nội của:",
-    options: [
-      "Những cấu trúc dữ liệu dùng để biểu diễn loại dữ liệu",
-      "Mô hình bố trí nhân viên dự án",
-      "Mô hình truyền thông dự án",
-      "Những dữ liệu khác nhau và những mục điều khiển"
-    ],
-    answer: "Những dữ liệu khác nhau và những mục điều khiển"
-  },
-  {
     question: "Loại mô hình nào được tạo ra trong phân tích yêu cầu phần mềm:",
     options: [
       "Chức năng và hành vi",
@@ -1364,16 +1324,6 @@ const quizData = [
       "Dùng không hơn 7 màu dương và 2 màu âm trong biểu đồ"
     ],
     answer: "Dùng không hơn 7 màu dương và 2 màu âm trong biểu đồ"
-  },
-  {
-    question: "Mục nào không là một mục đích cho việc xây dựng một mô hình phân tích:",
-    options: [
-      "Xác định một tập những yêu cầu phần mềm",
-      "Mô tả yêu cầu khách hàng",
-      "Phát triển một giải pháp tóm tắt cho vấn đề",
-      "Thiết lập một nền tảng cho thiết kế phần mềm"
-    ],
-    answer: "Phát triển một giải pháp tóm tắt cho vấn đề"
   },
   {
     question: "Biểu đồ quan hệ thực thể:",
@@ -1821,16 +1771,6 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
     answer: "Xác minh là tất cả các yêu cầu đã được xem xét trong thiết kế"
   },
   {
-    question: "Mục nào không là một phần của kiến trúc phần mềm:",
-    options: [
-      "Chi tiết giải thuật",
-      "Cơ sở dữ liệu",
-      "Thiết kế dữ liệu",
-      "Cấu trúc chương trình"
-    ],
-    answer: "Chi tiết giải thuật"
-  },
-  {
     question: "Đặc trưng nào là đúng cho kho dữ liệu, không phải là cơ sở dữ liệu đặc trưng:",
     options: [
       "Hướng mức nghiệp vụ và kích thước lớn",
@@ -2158,7 +2098,7 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
       "Không có những driver cần phải viết",
       "Không có những stub (nhánh) cần phải viết",
     ],
-    answer: "Không có những stub (nhánh) cần phải viết"
+    answer: "Không có những driver cần phải viết"
   },
   {
     question: "Vấn đề nào sau đây liên quan chính đến pha thiết kế?",
@@ -2239,16 +2179,6 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
     answer: "Có thời gian dài nhất"
   },
   {
-    question: "Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào:",
-    options: [
-      "Tính truy cập và tính tin cậy của hệ thống",
-      "Dữ liệu và điều khiển của hệ thống",
-      "Tính chức năng của hệ thống",
-      "Những chi tiết thực thi của hệ thống"
-    ],
-    answer: "Dữ liệu và điều khiển của hệ thống"
-  },
-  {
     question: "Theo Boris Beizer, thiết kế Testcase cần theo ràng buộc (constraint):",
     options: [
       "Theo một cách thức đầy đủ",
@@ -2306,7 +2236,7 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
       "Những feedback từ việc đánh giá của người dùng",
       "Nếu người dùng xảy ra lỗi thì hậu quả như thế nào"
     ],
-    answer: "Mô hình hệ thống của người dùng" // [45][46][47][48][49][50][51][52]
+    answer: "Trong tình huống đặc trưng thì người dùng thực hiện công việc gì?" // [45][46][47][48][49][50][51][52]
   },
   {
     question: "Mục nào không phải là một loại kiến trúc (style): kiến trúc:",
@@ -2629,14 +2559,14 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
     answer: "Đặc tả bằng sơ đồ"
   },
   {
-    question: "Mức độ một module kết nối với các module khác chỉ tới:",
+    question: "Mức độ các chức năng (hay phần tử) trong module kết nối với nhau chỉ tới:",
     options: [
       "Tính liên kết (coupling)",
       "Tính kết dính (cohesion)",
       "Chỉ đến chi phí tích hợp",
       "Chỉ đến chi phí phát triển"
     ],
-    answer: "Tính liên kết (coupling)"
+    answer: "Tính kết dính (cohesion)"
   },
   {
     question: "DQ lớn (Volume) trong phân tích yêu cầu là:",
@@ -2957,64 +2887,48 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
       ];
       
      // Lấy phần tử chứa bài quiz
-const quizContainer = document.getElementById("quiz-container");
-const userAnswers = Array(quizData.length).fill(null); // Lưu đáp án người dùng
+// Giả sử bạn có dữ liệu quiz dạng này:
 
-// Hàm xáo trộn câu hỏi mỗi lần tải trang
-function shuffleArray(array) {
-    return array.sort(() => Math.random() - 0.5);
-}
+let userAnswers = [];
+let wrongQuestions = [];
 
-// Xáo trộn câu hỏi khi trang tải lại
-const quizData1 = shuffleArray(quizData);
+function renderQuiz() {
+    const quizContainer = document.getElementById("quiz-container");
+    quizContainer.innerHTML = "";
 
-// Hiển thị câu hỏi và đáp án
-quizData.forEach((item, index) => {
-    const questionDiv = document.createElement("div");
-    questionDiv.classList.add("question");
-    questionDiv.innerHTML = `${index + 1}. ${item.question}`;
-
-    const optionsDiv = document.createElement("div");
-    optionsDiv.classList.add("options");
-
-    item.options.forEach((option, i) => {
-        const optionDiv = document.createElement("div");
-        optionDiv.innerHTML = option; // Hiển thị hình ảnh đúng cách
-        optionDiv.classList.add("option");
-        optionDiv.addEventListener("click", () => handleOptionClick(optionDiv, item.answer, option, index, optionsDiv));
-        optionsDiv.appendChild(optionDiv);
+    quizData.forEach((item, index) => {
+        const questionHTML = `
+            <div class="question">${index + 1}. ${item.question}</div>
+            <div class="options" data-index="${index}">
+                ${item.options.map(option => `
+                    <div class="option" data-value="${option}">${option}</div>
+                `).join('')}
+            </div>
+        `;
+        quizContainer.innerHTML += questionHTML;
     });
 
-    quizContainer.appendChild(questionDiv);
-    quizContainer.appendChild(optionsDiv);
-});
+    // Bắt sự kiện chọn đáp án
+    document.querySelectorAll(".options").forEach(group => {
+        group.addEventListener("click", e => {
+            if (e.target.classList.contains("option")) {
+                group.querySelectorAll(".option").forEach(opt => opt.classList.remove("selected"));
+                e.target.classList.add("selected");
 
-// Xử lý khi chọn đáp án
-function handleOptionClick(optionDiv, correctAnswer, selectedAnswer, questionIndex, optionsDiv) {
-    if (userAnswers[questionIndex] !== null) return;
-
-    userAnswers[questionIndex] = selectedAnswer;
-
-    // Đánh dấu đáp án đã chọn
-    Array.from(optionsDiv.children).forEach(div => div.classList.remove("selected"));
-    optionDiv.classList.add("selected");
-
-    if (selectedAnswer === correctAnswer) {
-        optionDiv.classList.add("correct");
-    } else {
-        optionDiv.classList.add("wrong");
-        Array.from(optionsDiv.children).forEach(div => {
-            if (div.innerHTML === correctAnswer) {
-                div.classList.add("show-correct");
+                const index = parseInt(group.dataset.index);
+                userAnswers[index] = e.target.dataset.value;
             }
         });
-    }
+    });
 }
 
-// Nộp bài
+renderQuiz();
+
 document.getElementById("submit-btn").addEventListener("click", () => {
     let correctCount = 0;
     let wrongCount = 0;
+    wrongQuestions = [];
+
     let resultHTML = `
         <table class="result-table">
             <thead>
@@ -3030,16 +2944,22 @@ document.getElementById("submit-btn").addEventListener("click", () => {
     `;
 
     quizData.forEach((item, index) => {
-        let isCorrect = userAnswers[index] === item.answer;
-        if (isCorrect) correctCount++;
-        else wrongCount++;
+        const userAns = userAnswers[index];
+        const isCorrect = userAns === item.answer;
+
+        if (isCorrect) {
+            correctCount++;
+        } else {
+            wrongCount++;
+            wrongQuestions.push({ ...item, index });
+        }
 
         resultHTML += `
             <tr class="${isCorrect ? 'correct-row' : 'wrong-row'}">
                 <td>${index + 1}</td>
                 <td>${item.question}</td>
                 <td class="correct-answer">${item.answer}</td>
-                <td class="${isCorrect ? 'correct-answer' : 'wrong-answer'}">${userAnswers[index] || 'Chưa trả lời'}</td>
+                <td class="${isCorrect ? 'correct-answer' : 'wrong-answer'}">${userAns || 'Chưa trả lời'}</td>
                 <td>${isCorrect ? '✅ Đúng' : '❌ Sai'}</td>
             </tr>
         `;
@@ -3058,13 +2978,59 @@ document.getElementById("submit-btn").addEventListener("click", () => {
     const resultDiv = document.getElementById("result");
     resultDiv.innerHTML = resultHTML;
     resultDiv.style.display = "block";
+
+    // Hiện nút làm lại câu sai nếu có sai
+    document.getElementById("retry-wrong-btn").style.display = wrongCount > 0 ? "inline-block" : "none";
 });
 
-// Nút chơi lại (làm mới trang)
+// Nút làm mới toàn bộ
 document.getElementById("reset-btn").addEventListener("click", () => {
     location.reload();
 });
 
+// Nút làm lại câu sai
+document.getElementById("retry-wrong-btn").addEventListener("click", () => {
+    const resultDiv = document.getElementById("result");
+    let retryHTML = `<h2 style="text-align:center;">🔁 Làm lại các câu sai</h2>`;
+
+    wrongQuestions.forEach((item, i) => {
+        retryHTML += `
+            <div class="question">${item.index + 1}. ${item.question}</div>
+            <div class="options" data-index="${item.index}">
+                ${item.options.map(option => `
+                    <div class="option" data-value="${option}">${option}</div>
+                `).join('')}
+            </div>
+        `;
+    });
+
+    retryHTML += `
+        <div class="action-buttons">
+            <button id="submit-retry" class="submit-btn">Nộp lại các câu sai</button>
+        </div>
+    `;
+
+    resultDiv.innerHTML = retryHTML;
+    resultDiv.style.display = "block";
+
+    // Xử lý chọn lại đáp án
+    document.querySelectorAll(".options").forEach(group => {
+        group.addEventListener("click", e => {
+            if (e.target.classList.contains("option")) {
+                group.querySelectorAll(".option").forEach(opt => opt.classList.remove("selected"));
+                e.target.classList.add("selected");
+
+                const index = parseInt(group.dataset.index);
+                userAnswers[index] = e.target.dataset.value;
+            }
+        });
+    });
+
+    // Nộp lại các câu sai
+    document.getElementById("submit-retry").addEventListener("click", () => {
+        document.getElementById("submit-btn").click();
+    });
+});
 
 // function handleOptionClick(optionDiv, correctAnswer, selectedAnswer, questionIndex, optionsDiv) {
 //     if (userAnswers[questionIndex] !== null) return;
@@ -3093,4 +3059,4 @@ document.getElementById("reset-btn").addEventListener("click", () => {
 // //             }
 // //         });
 // //     }
-//  } 
+//  }
