@@ -2889,6 +2889,18 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
      // Lấy phần tử chứa bài quiz
 let userAnswers = [];
 let wrongQuestions = [];
+// Hàm xáo trộn mảng bằng thuật toán Fisher-Yates
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+// Xáo trộn quizData trước khi render
+shuffleArray(quizData);
+
+
 
 function renderQuiz() {
     const quizContainer = document.getElementById("quiz-container");
