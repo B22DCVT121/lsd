@@ -31,7 +31,7 @@ const quizData = [
         answer: "B. Nó chỉ ra rằng các hoạt động được thực hiện nhiều lần"
       },
       {
-        question: "<<include>> là quan hệ use case được gọi mỗi khi use case chính chạy.",
+        question: "<< include >> là quan hệ use case được gọi mỗi khi use case chính chạy.",
         options: [
           "A. Đúng",
           "B. Chỉ đúng trong trường hợp có nhiều tác nhân",
@@ -298,7 +298,7 @@ const quizData = [
         answer: "C. Sơ đồ use case mô tả chức năng của hệ thống từ góc nhìn người dùng"
       },
       {
-        question: "Khi nào thì sử dụng quan hệ <<extend>>?",
+        question: "Khi nào thì sử dụng quan hệ << extend >>?",
         options: [
           "A. Khi một use case này là một phần của use case khác",
           "B. Khi một use case có thể được mở rộng bởi một use case khác",
@@ -478,16 +478,6 @@ const quizData = [
         answer: "A. Cần thiết để mô hình những hệ thống hướng sự kiện"
       },
       {
-        question: "Mô hình phát triển ứng dụng nhanh:",
-        options: [
-          "A. Một cách gọi khác của mô hình phát triển dựa vào thành phần",
-          "B. Một cách hữu dụng khi khách hàng không xác định yêu cầu rõ ràng",
-          "C. Sự ráp nối tốc độ cao của mô hình tuần tự tuyến tính",
-          "D. Tất cả mục trên"
-        ],
-        answer: "C. Sự ráp nối tốc độ cao của mô hình tuần tự tuyến tính"
-      },
-      {
         question: "Dòng đời hoạt động (life-line) là:",
         options: [
           "A. Hình chữ nhật đứng nhấn mạnh một đối tượng chỉ hoạt động trong suốt kịch bản",
@@ -625,8 +615,8 @@ const quizData = [
         answer: "Đảm bảo phần mềm đáp ứng yêu cầu người dùng"
       },
       {
-        question: "Phát biểu nào đúng về quan hệ <<uses>> trong sơ đồ Use Case?",
-        options: ["Tương tự như quan hệ <<include>>", "Cho biết một use case này sử dụng chức năng của use case khác tại một điểm tùy chọn", "Luôn được thực hiện khi use case cơ sở được thực hiện", "Không có quan hệ này trong Use Case Diagram"],
+        question: "Phát biểu nào đúng về quan hệ << uses >> trong sơ đồ Use Case?",
+        options: ["Tương tự như quan hệ << include >>", "Cho biết một use case này sử dụng chức năng của use case khác tại một điểm tùy chọn", "Luôn được thực hiện khi use case cơ sở được thực hiện", "Không có quan hệ này trong Use Case Diagram"],
         answer: "Không có quan hệ này trong Use Case Diagram"
       },
       {
@@ -653,16 +643,6 @@ const quizData = [
       "Các tương tác giữa hệ thống và người dùng"
     ],
     answer: "Những dữ liệu khác nhau và những mục điều khiển"
-  },
-  {
-    question: "Phát biểu nào là hợp lý nhất khi nói về mô hình phát triển phần mềm tuần tự tuyến tính?",
-    options: [
-      "Một hướng hợp lý khi những yêu cầu được xác định rõ",
-      "Phù hợp khi yêu cầu thay đổi liên tục",
-      "Chỉ áp dụng cho các dự án nhỏ",
-      "Không cần kiểm thử phần mềm"
-    ],
-    answer: "Một hướng hợp lý khi những yêu cầu được xác định rõ"
   },
   {
     question: "Sơ đồ luồng dữ liệu:",
@@ -695,7 +675,7 @@ const quizData = [
     answer: "Quan hệ tác nhân và trường hợp sử dụng"
   },
   {
-    question: "Khái quát hóa giữa tác nhân <<extend>>, <<include>>:",
+    question: "Khái quát hóa giữa tác nhân << extend >>, << include >>:",
     options: [
       "Khái quát hóa giữa trường hợp sử dụng",
       "<<include>> chỉ ra mối quan hệ giữa actor và use case",
@@ -765,16 +745,6 @@ const quizData = [
     answer: "Tính đóng gói, Tính thừa kế, Tính đa hình, Tính trừu tượng"
   },
   {
-    question: "Mô hình phát triển ứng dụng nhanh là:",
-    options: [
-      "Sự ráp nối tốc độ cao của mô hình tuần tự tuyến tính",
-      "Một dạng của mô hình thác nước",
-      "Không cần kiểm thử phần mềm",
-      "Mô hình không dùng cho dự án lớn"
-    ],
-    answer: "Sự ráp nối tốc độ cao của mô hình tuần tự tuyến tính"
-  },
-  {
     question: "Chọn phát biểu đúng với mô hình thác nước (Waterfall Model)?",
     options: [
       "Việc phát triển hệ thống sẽ được làm theo thứ tự tiến trình, không kết quả của công việc nào được gửi ngược lên tiền trình ở mức cao hơn",
@@ -802,12 +772,12 @@ const quizData = [
   {
     question: "Sơ đồ trình tự là một thể hiện rất tốt trong thiết kế phần mềm vì?",
     options: [
-      "Ngôn ngữ giống mã trong lập trình",
+      "Những người không phải lập trình viên có thể đọc hiểu sơ đồ",
       "Tương tác dễ trong làm việc nhóm",
       "Sơ đồ cho phép thấy nhiều đối tượng một lúc",
-      "Hiển thị toàn bộ hệ thống một cách tổng thể"
+      "Tất cả đều đúng"
     ],
-    answer: "Sơ đồ cho phép thấy nhiều đối tượng một lúc"
+    answer: "Tất cả đều đúng"
   },
   {
     question: "Phát biểu nào sau đây là phù hợp nhất?",
@@ -1009,12 +979,12 @@ const quizData = [
   {
     question: "Phân loại theo phạm vi sử dụng, sản phẩm phần mềm có những loại nào?",
     options: [
-      "Phần mềm đặc thù, phần mềm dùng chung",
+      "Phần mềm đặt, phần mềm dùng chung",
       "Phần mềm hệ thống, phần mềm ứng dụng",
       "Phần mềm nguồn mở, phần mềm thương mại",
       "Phần mềm lõi, phần mềm mở rộng"
     ],
-    answer: "Phần mềm đặc thù, phần mềm dùng chung"
+    answer: "Phần mềm đặt, phần mềm dùng chung"
   },
   {
     question: "Biểu đồ quan hệ thực thể thể hiện điều gì?",
@@ -1406,16 +1376,6 @@ const quizData = [
     answer: "Phát triển một giải pháp tóm tắt cho vấn đề"
   },
   {
-    question: "Sơ đồ luồng dữ liệu:",
-    options: [
-      "Đưa ra hình ảnh quan hệ giữa các đối tượng dữ liệu",
-      "Đưa ra hình ảnh những chức năng biến đổi luồng dữ liệu",
-      "Chỉ ra những quyết định logic chính khi chúng xuất hiện",
-      "Chỉ ra sự tương tác của hệ thống với sự kiện bên ngoài"
-    ],
-    answer: "Đưa ra hình ảnh những chức năng biến đổi luồng dữ liệu"
-  },
-  {
     question: "Biểu đồ quan hệ thực thể:",
     options: [
       "Đưa ra hình ảnh những chủ liên các đối tượng dữ liệu",
@@ -1597,7 +1557,7 @@ const quizData = [
     options: [
       "A. Snake là lớp con của Mongoose",
       "B. Quan hệ giữa Mongoose và Snake là quan hệ phụ thuộc",
-      "C.  Animal là <<interface>> nên mối quan hệ từ lớp Vertebrate nên là nét đứt (realize)",
+      "C.  Animal là << interface >> nên mối quan hệ từ lớp Vertebrate nên là nét đứt (realize)",
       "D. B, C",
     ],
     answer: "D. B, C"
@@ -1646,12 +1606,12 @@ const quizData = [
      {
     question:'Use case trống và quan hệ trong sơ đồ là:<br><img src="273.png" alt="Câu 273" width="400"> ',
     options: [
-      "A. Lỗi hệ thống và <<include>> hoặc <<extend>>",
-      "B. Use case thừa kế và <<include>>",
-      "C. Ngoại lệ và <<extend>>",
-      "D. Tác nhân và <<extend>>",
+      "A. Lỗi hệ thống và << include >> hoặc << extend >>",
+      "B. Use case thừa kế và << include >>",
+      "C. Ngoại lệ và << extend >>",
+      "D. Tác nhân và << extend >>",
     ],
-    answer: "C. Ngoại lệ và <<extend>>"
+    answer: "C. Ngoại lệ và << extend >>"
   },
      {
     question:'Sinh mã cho sơ đồ có trình tự sau:<br><img src="280.png" alt="Câu 280" width="400"> ',
@@ -3106,31 +3066,31 @@ document.getElementById("reset-btn").addEventListener("click", () => {
 });
 
 
-function handleOptionClick(optionDiv, correctAnswer, selectedAnswer, questionIndex, optionsDiv) {
-    if (userAnswers[questionIndex] !== null) return;
+// function handleOptionClick(optionDiv, correctAnswer, selectedAnswer, questionIndex, optionsDiv) {
+//     if (userAnswers[questionIndex] !== null) return;
 
-    userAnswers[questionIndex] = selectedAnswer;
+//     userAnswers[questionIndex] = selectedAnswer;
 
-    // Đánh dấu đáp án đã chọn
-    Array.from(optionsDiv.children).forEach(div => div.classList.remove("selected"));
-    optionDiv.classList.add("selected");
+// //     // Đánh dấu đáp án đã chọn
+// //     Array.from(optionsDiv.children).forEach(div => div.classList.remove("selected"));
+// //     optionDiv.classList.add("selected");
 
-    if (selectedAnswer === correctAnswer) {
-        optionDiv.classList.add("correct");
+// //     if (selectedAnswer === correctAnswer) {
+// //         optionDiv.classList.add("correct");
 
-        // 🎆 Bắn pháo hoa khi trả lời đúng
-        confetti({
-            particleCount: 100,
-            spread: 90,
-            origin: { y: 0.6 }
-        });
+// //         // 🎆 Bắn pháo hoa khi trả lời đúng
+// //         confetti({
+// //             particleCount: 3,
+// //             spread: 90,
+// //             origin: { y: 0.6 }
+// //         });
 
-    } else {
-        optionDiv.classList.add("wrong");
-        Array.from(optionsDiv.children).forEach(div => {
-            if (div.innerHTML === correctAnswer) {
-                div.classList.add("show-correct");
-            }
-        });
-    }
-}
+// //     } else {
+// //         optionDiv.classList.add("wrong");
+// //         Array.from(optionsDiv.children).forEach(div => {
+// //             if (div.innerHTML === correctAnswer) {
+// //                 div.classList.add("show-correct");
+// //             }
+// //         });
+// //     }
+//  }
