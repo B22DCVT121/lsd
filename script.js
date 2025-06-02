@@ -2886,10 +2886,10 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
         // Add more questions here
       ];
       
-     // Lấy phần tử chứa bài quiz
 let userAnswers = [];
 let wrongQuestions = [];
-// Hàm xáo trộn mảng bằng thuật toán Fisher-Yates
+
+// Hàm xáo trộn mảng
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -2897,10 +2897,7 @@ function shuffleArray(array) {
     }
 }
 
-// Xáo trộn quizData trước khi render
 shuffleArray(quizData);
-
-
 
 function renderQuiz() {
     const quizContainer = document.getElementById("quiz-container");
@@ -2918,34 +2915,37 @@ function renderQuiz() {
         quizContainer.innerHTML += questionHTML;
     });
 
-    // Bắt sự kiện chọn đáp án và hiển thị đúng sai ngay lập tức
+    // Bắt sự kiện chọn đáp án, chỉ cho chọn 1 lần
     document.querySelectorAll(".options").forEach(group => {
         group.addEventListener("click", e => {
-            if (e.target.classList.contains("option")) {
-                const index = parseInt(group.dataset.index);
-                const selectedValue = e.target.dataset.value;
-                userAnswers[index] = selectedValue;
+            const optionDiv = e.target.closest(".option");
+            if (!optionDiv) return;
 
-                // Xoá highlight cũ
+            const index = parseInt(group.dataset.index);
+            if (userAnswers[index] !== undefined) return; // Đã chọn rồi
+
+            const selectedValue = optionDiv.dataset.value;
+            userAnswers[index] = selectedValue;
+
+            const correctAnswer = quizData[index].answer;
+
+            group.querySelectorAll(".option").forEach(opt => {
+                opt.classList.remove("selected", "correct", "wrong");
+                opt.classList.add("disabled"); // Vô hiệu hoá chọn lại
+            });
+
+            optionDiv.classList.add("selected");
+
+            if (selectedValue === correctAnswer) {
+                optionDiv.classList.add("correct");
+            } else {
+                optionDiv.classList.add("wrong");
+                // Tô đáp án đúng
                 group.querySelectorAll(".option").forEach(opt => {
-                    opt.classList.remove("selected", "correct", "wrong");
+                    if (opt.dataset.value === correctAnswer) {
+                        opt.classList.add("correct");
+                    }
                 });
-
-                // Đánh dấu đã chọn
-                e.target.classList.add("selected");
-
-                // Kiểm tra đáp án
-                const correctAnswer = quizData[index].answer;
-                if (selectedValue === correctAnswer) {
-                    e.target.classList.add("correct");
-                } else {
-                    e.target.classList.add("wrong");
-                    group.querySelectorAll(".option").forEach(opt => {
-                        if (opt.dataset.value === correctAnswer) {
-                            opt.classList.add("correct");
-                        }
-                    });
-                }
             }
         });
     });
@@ -3008,16 +3008,13 @@ document.getElementById("submit-btn").addEventListener("click", () => {
     resultDiv.innerHTML = resultHTML;
     resultDiv.style.display = "block";
 
-    // Hiện nút làm lại câu sai nếu có sai
     document.getElementById("retry-wrong-btn").style.display = wrongCount > 0 ? "inline-block" : "none";
 });
 
-// Nút làm mới toàn bộ
 document.getElementById("reset-btn").addEventListener("click", () => {
     location.reload();
 });
 
-// Nút làm lại câu sai
 document.getElementById("retry-wrong-btn").addEventListener("click", () => {
     const resultDiv = document.getElementById("result");
     let retryHTML = `<h2 style="text-align:center;">🔁 Làm lại các câu sai</h2>`;
@@ -3042,36 +3039,39 @@ document.getElementById("retry-wrong-btn").addEventListener("click", () => {
     resultDiv.innerHTML = retryHTML;
     resultDiv.style.display = "block";
 
-    // Xử lý chọn lại đáp án (hiển thị đúng sai ngay)
     document.querySelectorAll(".options").forEach(group => {
         group.addEventListener("click", e => {
-            if (e.target.classList.contains("option")) {
-                const index = parseInt(group.dataset.index);
-                const selectedValue = e.target.dataset.value;
-                userAnswers[index] = selectedValue;
+            const optionDiv = e.target.closest(".option");
+            if (!optionDiv) return;
 
+            const index = parseInt(group.dataset.index);
+            if (userAnswers[index] !== undefined) return; // Đã chọn rồi
+
+            const selectedValue = optionDiv.dataset.value;
+            userAnswers[index] = selectedValue;
+
+            const correctAnswer = quizData[index].answer;
+
+            group.querySelectorAll(".option").forEach(opt => {
+                opt.classList.remove("selected", "correct", "wrong");
+                opt.classList.add("disabled");
+            });
+
+            optionDiv.classList.add("selected");
+
+            if (selectedValue === correctAnswer) {
+                optionDiv.classList.add("correct");
+            } else {
+                optionDiv.classList.add("wrong");
                 group.querySelectorAll(".option").forEach(opt => {
-                    opt.classList.remove("selected", "correct", "wrong");
+                    if (opt.dataset.value === correctAnswer) {
+                        opt.classList.add("correct");
+                    }
                 });
-
-                e.target.classList.add("selected");
-
-                const correctAnswer = quizData[index].answer;
-                if (selectedValue === correctAnswer) {
-                    e.target.classList.add("correct");
-                } else {
-                    e.target.classList.add("wrong");
-                    group.querySelectorAll(".option").forEach(opt => {
-                        if (opt.dataset.value === correctAnswer) {
-                            opt.classList.add("correct");
-                        }
-                    });
-                }
             }
         });
     });
 
-    // Nộp lại các câu sai
     document.getElementById("submit-retry").addEventListener("click", () => {
         document.getElementById("submit-btn").click();
     });
