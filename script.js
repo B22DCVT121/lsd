@@ -2915,7 +2915,9 @@ function renderQuiz(quizList, isRetry = false) {
             if (!optionDiv || optionDiv.classList.contains("disabled")) return;
 
             const index = parseInt(group.dataset.index);
-            if (userAnswers[index] !== undefined) return;
+
+            // ✅ Cho phép chọn lại nếu đang làm lại các câu sai (isRetry === true)
+            if (userAnswers[index] !== undefined && !isRetry) return;
 
             const selectedValue = optionDiv.dataset.value;
             userAnswers[index] = selectedValue;
@@ -3046,6 +3048,16 @@ retryBtn.addEventListener("click", () => {
 });
 
 renderQuiz(quizDataShuffled);
+// Tăng số lượt truy cập
+function updateVisitCounter() {
+    const count = localStorage.getItem("visitCount") || 0;
+    const newCount = parseInt(count) + 1;
+    localStorage.setItem("visitCount", newCount);
+    document.getElementById("visit-count").textContent = newCount;
+}
+
+updateVisitCounter();
+
 
 
 
