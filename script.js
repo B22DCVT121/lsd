@@ -2887,8 +2887,6 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
       ];
       
      // Lấy phần tử chứa bài quiz
-// Giả sử bạn có dữ liệu quiz dạng này:
-
 let userAnswers = [];
 let wrongQuestions = [];
 
@@ -2908,15 +2906,34 @@ function renderQuiz() {
         quizContainer.innerHTML += questionHTML;
     });
 
-    // Bắt sự kiện chọn đáp án
+    // Bắt sự kiện chọn đáp án và hiển thị đúng sai ngay lập tức
     document.querySelectorAll(".options").forEach(group => {
         group.addEventListener("click", e => {
             if (e.target.classList.contains("option")) {
-                group.querySelectorAll(".option").forEach(opt => opt.classList.remove("selected"));
+                const index = parseInt(group.dataset.index);
+                const selectedValue = e.target.dataset.value;
+                userAnswers[index] = selectedValue;
+
+                // Xoá highlight cũ
+                group.querySelectorAll(".option").forEach(opt => {
+                    opt.classList.remove("selected", "correct", "wrong");
+                });
+
+                // Đánh dấu đã chọn
                 e.target.classList.add("selected");
 
-                const index = parseInt(group.dataset.index);
-                userAnswers[index] = e.target.dataset.value;
+                // Kiểm tra đáp án
+                const correctAnswer = quizData[index].answer;
+                if (selectedValue === correctAnswer) {
+                    e.target.classList.add("correct");
+                } else {
+                    e.target.classList.add("wrong");
+                    group.querySelectorAll(".option").forEach(opt => {
+                        if (opt.dataset.value === correctAnswer) {
+                            opt.classList.add("correct");
+                        }
+                    });
+                }
             }
         });
     });
@@ -3013,15 +3030,31 @@ document.getElementById("retry-wrong-btn").addEventListener("click", () => {
     resultDiv.innerHTML = retryHTML;
     resultDiv.style.display = "block";
 
-    // Xử lý chọn lại đáp án
+    // Xử lý chọn lại đáp án (hiển thị đúng sai ngay)
     document.querySelectorAll(".options").forEach(group => {
         group.addEventListener("click", e => {
             if (e.target.classList.contains("option")) {
-                group.querySelectorAll(".option").forEach(opt => opt.classList.remove("selected"));
+                const index = parseInt(group.dataset.index);
+                const selectedValue = e.target.dataset.value;
+                userAnswers[index] = selectedValue;
+
+                group.querySelectorAll(".option").forEach(opt => {
+                    opt.classList.remove("selected", "correct", "wrong");
+                });
+
                 e.target.classList.add("selected");
 
-                const index = parseInt(group.dataset.index);
-                userAnswers[index] = e.target.dataset.value;
+                const correctAnswer = quizData[index].answer;
+                if (selectedValue === correctAnswer) {
+                    e.target.classList.add("correct");
+                } else {
+                    e.target.classList.add("wrong");
+                    group.querySelectorAll(".option").forEach(opt => {
+                        if (opt.dataset.value === correctAnswer) {
+                            opt.classList.add("correct");
+                        }
+                    });
+                }
             }
         });
     });
@@ -3031,6 +3064,8 @@ document.getElementById("retry-wrong-btn").addEventListener("click", () => {
         document.getElementById("submit-btn").click();
     });
 });
+
+
 
 // function handleOptionClick(optionDiv, correctAnswer, selectedAnswer, questionIndex, optionsDiv) {
 //     if (userAnswers[questionIndex] !== null) return;
