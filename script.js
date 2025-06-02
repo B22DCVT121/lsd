@@ -590,11 +590,6 @@ const quizData = [
         answer: "Biểu đồ tuần tự biểu diễn sự tương tác giữa các đối tượng"
       },
       {
-        question: "Tập hợp yêu cầu, thiết kế nhanh, xây dựng bản mẫu, đánh giá của khách hàng, làm mịn yêu cầu, sản phẩm cuối cùng. Đây là các pha của mô hình công nghệ phần mềm nào?",
-        options: ["Mô hình làm bản mẫu", "Mô hình thác nước", "Mô hình xoắn ốc", "Mô hình kỹ thuật thế hệ thứ tự"],
-        answer: "Mô hình làm bản mẫu"
-      },
-      {
         question: "Mô hình phát triển phần mềm dựa trên mẫu thử (prototype) là:",
         options: ["Một phương pháp thích hợp được sử dụng khi các yêu cầu đã được xác định rõ ràng", "Phương pháp tốt nhất được sử dụng trong các dự án có nhiều thành viên", "Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng", "Một mô hình rất rủi ro, khó đưa ra được một sản phẩm tốt"],
         answer: "Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng"
@@ -1270,7 +1265,7 @@ const quizData = [
     options: [
       "Quan hệ với một dữ liệu và điều khiển khác",
       "Biến đổi khi mỗi lần dịch chuyển qua hệ thống",
-      "Sẽ được thực thi lòng ích chucền qua hệ thống",
+      "Sẽ được thực thi luồng khi chuyển qua hệ thống",
       "Không có mục nào"
     ],
     answer: "Biến đổi khi mỗi lần dịch chuyển qua hệ thống"
@@ -1521,6 +1516,17 @@ const quizData = [
       "D. Một công ty (Company) có một nhà tuyển dụng (employer) là con người (Person)",
     ],
     answer: "B. Một người (Person) có thể làm việc cho một công ty (Company)"
+  },
+
+      {
+    question:'Cho sơ đồ lớp sau: Sơ đồ chỉ ra rằng?<br><img src="92.png" alt="Câu 92" width="400">',
+    options: [
+      "A. Người (Person) có một tên (name)",
+      "B. Guitarist có một tên",
+      "C. Guitar có một tên",
+      "D. A, B",
+    ],
+    answer: "D. A, B"
   },
     {
     question:'Biểu diễn một số người giữ con vật làm thú cưng như thế nào?',
@@ -2019,16 +2025,6 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
       "Những phát biểu của chương trình"
     ],
     answer: "Những đường logic độc lập trong chương trình"
-  },
-  {
-    question: "Kiểm thử điều kiện là một kỹ thuật kiểm thử cấu trúc điều khiển mà những tiêu chuẩn dùng để thiết kế test-case:",
-    options: [
-      "Dựa vào kiểm thử đường cơ bản",
-      "Thử thách điều kiện logic trong module phần mềm",
-      "Chọn những đường dẫn kiểm tra dựa vào những vị trí và dùng những biến",
-      "Tập trung vào việc kiểm thử việc giá trị những cấu trúc lặp"
-    ],
-    answer: "Thử thách điều kiện logic trong module phần mềm"
   },
   {
     question: "Kiểm thử luồng dữ liệu là một kỹ thuật kiểm thử cấu trúc điều khiển mà những tiêu chuẩn dùng để thiết kế test-case:",
@@ -2720,7 +2716,7 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
       "Expert",
       "Delphi"
     ],
-    answer: "Expert"
+    answer: "Delphi"
   },
   {
     question: "Phát biểu nào là sai khi nói về bản chất của phần mềm:",
@@ -2781,16 +2777,6 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
       "Những test-case cho sản phẩm phần mềm"
     ],
     answer: "Phần mềm thực hiện như thế nào khi được dùng trong một tình huống cho trước"
-  },
-  {
-    question: "Mục nào không dùng cho đặc tả yêu cầu:",
-    options: [
-      "Đặc tả thao tác",
-      "Đặc tả mô hình",
-      "Đặc tả bằng sơ đồ",
-      "Đặc tả thuật toán"
-    ],
-    answer: "Đặc tả mô hình"
   },
   {
     question: "Loại hình đặc tả nào không có?",
@@ -2886,52 +2872,63 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
         // Add more questions here
       ];
       
+const quizContainer = document.getElementById("quiz-container");
+const resultDiv = document.getElementById("result");
+const submitBtn = document.getElementById("submit-btn");
+const resetBtn = document.getElementById("reset-btn");
+const retryBtn = document.getElementById("retry-wrong-btn");
+
 let userAnswers = [];
 let wrongQuestions = [];
 
-// Hàm xáo trộn mảng
+// Shuffle quiz
 function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
+    return array.sort(() => Math.random() - 0.5);
 }
+const quizDataShuffled = shuffleArray(quizData);
 
-shuffleArray(quizData);
-
-function renderQuiz() {
-    const quizContainer = document.getElementById("quiz-container");
+// Hiển thị câu hỏi
+function renderQuiz(quizList, isRetry = false) {
     quizContainer.innerHTML = "";
 
-    quizData.forEach((item, index) => {
-        const questionHTML = `
-            <div class="question">${index + 1}. ${item.question}</div>
-            <div class="options" data-index="${index}">
-                ${item.options.map(option => `
-                    <div class="option" data-value="${option}">${option}</div>
-                `).join('')}
-            </div>
-        `;
-        quizContainer.innerHTML += questionHTML;
+    quizList.forEach((item, index) => {
+        const questionIndex = isRetry ? item.originalIndex : index;
+        const questionDiv = document.createElement("div");
+        questionDiv.classList.add("question");
+        questionDiv.innerHTML = `${questionIndex + 1}. ${item.question}`;
+
+        const optionsDiv = document.createElement("div");
+        optionsDiv.classList.add("options");
+        optionsDiv.dataset.index = questionIndex;
+
+        item.options.forEach(option => {
+            const optionDiv = document.createElement("div");
+            optionDiv.classList.add("option");
+            optionDiv.innerHTML = option;
+            optionDiv.dataset.value = option;
+            optionsDiv.appendChild(optionDiv);
+        });
+
+        quizContainer.appendChild(questionDiv);
+        quizContainer.appendChild(optionsDiv);
     });
 
-    // Bắt sự kiện chọn đáp án, chỉ cho chọn 1 lần
+    // Gắn sự kiện chọn đáp án
     document.querySelectorAll(".options").forEach(group => {
         group.addEventListener("click", e => {
             const optionDiv = e.target.closest(".option");
-            if (!optionDiv) return;
+            if (!optionDiv || optionDiv.classList.contains("disabled")) return;
 
             const index = parseInt(group.dataset.index);
-            if (userAnswers[index] !== undefined) return; // Đã chọn rồi
+            if (userAnswers[index] !== undefined) return;
 
             const selectedValue = optionDiv.dataset.value;
             userAnswers[index] = selectedValue;
-
-            const correctAnswer = quizData[index].answer;
+            const correctAnswer = quizDataShuffled[index].answer;
 
             group.querySelectorAll(".option").forEach(opt => {
+                opt.classList.add("disabled");
                 opt.classList.remove("selected", "correct", "wrong");
-                opt.classList.add("disabled"); // Vô hiệu hoá chọn lại
             });
 
             optionDiv.classList.add("selected");
@@ -2940,7 +2937,6 @@ function renderQuiz() {
                 optionDiv.classList.add("correct");
             } else {
                 optionDiv.classList.add("wrong");
-                // Tô đáp án đúng
                 group.querySelectorAll(".option").forEach(opt => {
                     if (opt.dataset.value === correctAnswer) {
                         opt.classList.add("correct");
@@ -2951,9 +2947,8 @@ function renderQuiz() {
     });
 }
 
-renderQuiz();
-
-document.getElementById("submit-btn").addEventListener("click", () => {
+// Hiển thị kết quả
+function showResult() {
     let correctCount = 0;
     let wrongCount = 0;
     wrongQuestions = [];
@@ -2972,7 +2967,7 @@ document.getElementById("submit-btn").addEventListener("click", () => {
             <tbody>
     `;
 
-    quizData.forEach((item, index) => {
+    quizDataShuffled.forEach((item, index) => {
         const userAns = userAnswers[index];
         const isCorrect = userAns === item.answer;
 
@@ -2980,7 +2975,7 @@ document.getElementById("submit-btn").addEventListener("click", () => {
             correctCount++;
         } else {
             wrongCount++;
-            wrongQuestions.push({ ...item, index });
+            wrongQuestions.push({ ...item, originalIndex: index });
         }
 
         resultHTML += `
@@ -2995,87 +2990,67 @@ document.getElementById("submit-btn").addEventListener("click", () => {
     });
 
     resultHTML += `
-            </tbody>
-        </table>
-        <div class="summary">
-            <p><b>Tổng số câu:</b> ${quizData.length}</p>
-            <p><b>Số câu đúng:</b> <span class="correct-count">${correctCount}</span></p>
-            <p><b>Số câu sai:</b> <span class="wrong-count">${wrongCount}</span></p>
-        </div>
+        </tbody>
+    </table>
+    <div class="summary">
+        <p><b>Tổng số câu:</b> ${quizDataShuffled.length}</p>
+        <p><b>Số câu đúng:</b> <span class="correct-count">${correctCount}</span></p>
+        <p><b>Số câu sai:</b> <span class="wrong-count">${wrongCount}</span></p>
+    </div>
     `;
 
-    const resultDiv = document.getElementById("result");
     resultDiv.innerHTML = resultHTML;
     resultDiv.style.display = "block";
+    retryBtn.style.display = wrongCount > 0 ? "inline-block" : "none";
+}
 
-    document.getElementById("retry-wrong-btn").style.display = wrongCount > 0 ? "inline-block" : "none";
+// Nộp bài
+submitBtn.addEventListener("click", () => {
+    showResult();
 });
 
-document.getElementById("reset-btn").addEventListener("click", () => {
+// Làm lại từ đầu
+resetBtn.addEventListener("click", () => {
     location.reload();
 });
 
-document.getElementById("retry-wrong-btn").addEventListener("click", () => {
-    const resultDiv = document.getElementById("result");
-    let retryHTML = `<h2 style="text-align:center;">🔁 Làm lại các câu sai</h2>`;
+// Làm lại các câu sai
+retryBtn.addEventListener("click", () => {
+    if (wrongQuestions.length === 0) {
+        alert("Không còn câu sai để làm lại!");
+        return;
+    }
 
-    wrongQuestions.forEach((item, i) => {
-        retryHTML += `
-            <div class="question">${item.index + 1}. ${item.question}</div>
-            <div class="options" data-index="${item.index}">
-                ${item.options.map(option => `
-                    <div class="option" data-value="${option}">${option}</div>
-                `).join('')}
-            </div>
-        `;
+    // Đánh dấu các câu sai trước là chưa trả lời lại
+    wrongQuestions.forEach(item => {
+        userAnswers[item.originalIndex] = undefined;
     });
 
-    retryHTML += `
-        <div class="action-buttons">
-            <button id="submit-retry" class="submit-btn">Nộp lại các câu sai</button>
-        </div>
-    `;
+    renderQuiz(wrongQuestions, true);
 
-    resultDiv.innerHTML = retryHTML;
+    // Thêm nút nộp lại các câu sai
+    const submitRetryBtn = document.createElement("button");
+    submitRetryBtn.innerText = "Nộp lại các câu sai";
+    submitRetryBtn.classList.add("submit-btn");
+    submitRetryBtn.style.marginTop = "20px";
+    resultDiv.innerHTML = "";
+    resultDiv.appendChild(submitRetryBtn);
     resultDiv.style.display = "block";
 
-    document.querySelectorAll(".options").forEach(group => {
-        group.addEventListener("click", e => {
-            const optionDiv = e.target.closest(".option");
-            if (!optionDiv) return;
+    submitRetryBtn.addEventListener("click", () => {
+        showResult();
 
-            const index = parseInt(group.dataset.index);
-            if (userAnswers[index] !== undefined) return; // Đã chọn rồi
-
-            const selectedValue = optionDiv.dataset.value;
-            userAnswers[index] = selectedValue;
-
-            const correctAnswer = quizData[index].answer;
-
-            group.querySelectorAll(".option").forEach(opt => {
-                opt.classList.remove("selected", "correct", "wrong");
-                opt.classList.add("disabled");
-            });
-
-            optionDiv.classList.add("selected");
-
-            if (selectedValue === correctAnswer) {
-                optionDiv.classList.add("correct");
-            } else {
-                optionDiv.classList.add("wrong");
-                group.querySelectorAll(".option").forEach(opt => {
-                    if (opt.dataset.value === correctAnswer) {
-                        opt.classList.add("correct");
-                    }
-                });
-            }
-        });
-    });
-
-    document.getElementById("submit-retry").addEventListener("click", () => {
-        document.getElementById("submit-btn").click();
+        // Nếu vẫn còn câu sai, tiếp tục hiển thị "làm lại"
+        if (wrongQuestions.length > 0) {
+            retryBtn.style.display = "inline-block";
+        } else {
+            retryBtn.style.display = "none";
+            alert("🎉 Bạn đã hoàn thành tất cả các câu đúng!");
+        }
     });
 });
+
+renderQuiz(quizDataShuffled);
 
 
 
