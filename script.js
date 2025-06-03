@@ -1384,6 +1384,16 @@ const quizData = [
     ],
     answer: "Xử lý chi tiết của mỗi module riêng biệt"
   },
+  {
+    question: "Nguyên nhân của việc sinh lỗi do thiết kế mức thành phần trước khi thiết kế dữ liệu là:",
+    options: [
+      "Thiết kế thành phần thì phụ thuộc vào ngôn ngữ còn thiết kế dữ liệu thì không",
+      "Thiết kế dữ liệu thì dễ thực hiện hơn",
+      "Thiết kế dữ liệu thì khó thực hiện",
+      "Cấu trúc dữ liệu thường ảnh hưởng tới cách thức mà thiết kế thành phần phải theo"
+    ],
+    answer: "Cấu trúc dữ liệu thường ảnh hưởng tới cách thức mà thiết kế thành phần phải theo"
+  },
       {
     question:'Dưới đây lớp Circle được thể hiện sơ đồ UML cho biết “isVisible()” là:<br><img src="Cau-50.png" alt="Câu 50" width="400">',
     options: [
@@ -2209,7 +2219,7 @@ vii) Đội ngũ nhân viên sẵn sàng</pre>`,
     "Kiểm thử thống kê",
     "Kiểm thử khiếm khuyết"
   ],
-  answer: "Kiểm thử alpha"
+  answer: "Kiểm thử beta"
 },
 
 
@@ -3025,7 +3035,10 @@ function renderQuiz(quizList, isRetry = false) {
         optionsDiv.classList.add("options");
         optionsDiv.dataset.index = questionIndex;
 
-        item.options.forEach(option => {
+        // 🔁 Tráo thứ tự đáp án
+        const shuffledOptions = shuffleArray([...item.options]);
+
+        shuffledOptions.forEach(option => {
             const optionDiv = document.createElement("div");
             optionDiv.classList.add("option");
             optionDiv.innerHTML = option;
